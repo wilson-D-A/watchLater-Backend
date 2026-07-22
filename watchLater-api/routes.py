@@ -1,12 +1,12 @@
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, Depends, Query
 from schemas import VideoBase, TagPatch
 from typing import Annotated
 from database import get_session
 from crud import (
-    get_all_videos,
     patch_tag_from_video,
     get_video_by_id,
     delete_video_from_db,
+    get_all_videos_cursor_pg,
 )
 from sqlalchemy.orm import Session
 
@@ -14,8 +14,11 @@ app = FastAPI()
 
 
 @app.get("/videos", response_model=list[VideoBase])
-async def get_videos(session: Annotated[Session, Depends(get_session)]):
-    return get_all_videos(session)
+async def get_videos(
+    session: Annotated[Session, Depends(get_session)],
+    cursor: int | None = Query(default=None),
+):
+    return get_all_videos_cursor_pg(session, cursor, limit=20)
 
 
 @app.patch("/videos/{video_id}", response_model=VideoBase)

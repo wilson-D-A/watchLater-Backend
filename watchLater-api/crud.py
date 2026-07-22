@@ -46,6 +46,15 @@ def get_all_videos(session: Session):
     return session.execute(select(Video)).scalars().all()
 
 
+def get_all_videos_cursor_pg(session: Session, cursor, limit: int = 20):
+    stmt = select(Video).order_by(Video.id)
+    if cursor:
+        stmt = stmt.where(Video.id > cursor)
+
+    stmt = stmt.limit(limit)
+    return session.execute(stmt).scalars().all()
+
+
 def patch_tag_from_video(session: Session, video: Video, new_tags: dict):
     if not video:
         return []
