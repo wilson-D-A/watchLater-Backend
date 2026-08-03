@@ -1,8 +1,10 @@
 from fastapi import FastAPI, Depends, Query
-from schemas import VideoBase, TagPatch
+from schemas import TagBase, VideoBase, TagPatch, CategoryResponse
 from typing import Annotated
 from database import get_session
 from crud import (
+    get_all_tags_in_category,
+    list_categories,
     patch_tag_from_video,
     get_video_by_id,
     delete_video_from_db,
@@ -16,9 +18,32 @@ app = FastAPI()
 @app.get("/videos", response_model=list[VideoBase])
 async def get_videos(
     session: Annotated[Session, Depends(get_session)],
-    cursor: int | None = Query(default=None),
+    cursor: int | None = Query(default=0),
+    category: str | None = Query(default=None),
+    tag: list[str] | None = Query(default=None),
 ):
-    return get_all_videos_cursor_pg(session, cursor, limit=20)
+    return get_all_videos_cursor_pg(
+        session,
+        cursor,
+        limit=20,
+        category=category,
+        tag=tag,
+    )
+
+
+@app.get("/categories", response_model=CategoryResponse)
+async def get_categories(
+    session: Annotated[Session, Depends(get_session)],
+):
+    return list_categories(session)
+
+
+@app.get("/tags_by_category", response_model=list[TagBase])
+async def get_tags_by_category(
+    category: str,
+    session: Annotated[Session, Depends(get_session)],
+):
+    return get_all_tags_in_category(session, category=category)
 
 
 @app.patch("/videos/{video_id}", response_model=VideoBase)

@@ -27,8 +27,9 @@ class Tag(Base):
     __tablename__ = "tag"
     id: Mapped[int] = mapped_column(primary_key=True)
     name: Mapped[str]
+    type: Mapped[str] = mapped_column(default=None, nullable=True)
     video_id: Mapped[int] = mapped_column(ForeignKey("video.id"))
     video: Mapped["Video"] = relationship(back_populates="tags")
 
     def __repr__(self) -> str:
-        return f"Tag(id={self.id!r}, name={self.name!r})"
+        return f"Tag(id={self.id!r}, name={self.name!r}, type={self.type!r}, video_id={self.video_id!r})"

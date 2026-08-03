@@ -1,5 +1,5 @@
 from models import Video, Tag
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 # json_path = Path("api") / "watchlater_grouped.json"
@@ -10,6 +10,7 @@ from sqlalchemy.orm import Session
 
 def create_video(session: Session, data: list[dict]):
     video = None
+    types = ["concept", "tool", "topic"]
     for video_data in data:
         video = Video(
             title=video_data.get("title"),
@@ -21,8 +22,9 @@ def create_video(session: Session, data: list[dict]):
         session.add(video)
 
         for tag_name in video_data.get("tag", []):
-            tag = Tag(name=tag_name, video=video)
-            session.add(tag)
+            for tag_type in types:
+                tag = Tag(name=tag_name, type=tag_type, video=video)
+                session.add(tag)
 
         session.commit()
         session.refresh(video)
@@ -30,8 +32,23 @@ def create_video(session: Session, data: list[dict]):
     return video
 
 
-# def seed_videos_from_file(session: Session):
-#     create_video(session=session, data=data)
+def seed_tag_types(session: Session):
+    get_all_videos = session.execute(select(Video)).scalars().all()
+    for i, video in enumerate(get_all_videos):
+        for j, tag in enumerate(video.tags):
+            if j == 0:
+                tag.type = "concept"
+            elif j == 1:
+                tag.type = "tool"
+            elif j == 2:
+                tag.type = "topic"
+
+    session.commit()
+    print(video)
+
+
+def seed_videos_from_file(session: Session, data: list[dict]):
+    create_video(session, data)
 
 
 def get_video_by_id(session: Session, video_id: int):
@@ -42,17 +59,56 @@ def get_tag_by_video(session: Session, video_id: int):
     return session.execute(select(Tag).where(Tag.video_id == video_id)).scalars().all()
 
 
+def get_all_tags_in_category(session: Session, category: str):
+    return (
+        session.execute(select(Tag).join(Video).where(Video.category == category))
+        .scalars()
+        .all()
+    )
+
+
+def filter_videos(
+    session: Session, category: str | None = None, tag: list[str] | None = None
+):
+    stmt = select(Video)
+
+    return session.execute(stmt).scalars().all()
+
+
 def get_all_videos(session: Session):
     return session.execute(select(Video)).scalars().all()
 
 
-def get_all_videos_cursor_pg(session: Session, cursor, limit: int = 20):
+def get_all_videos_cursor_pg(
+    session: Session,
+    cursor,
+    limit: int = 20,
+    category: str | None = None,
+    tag: list[str] | None = None,
+):
     stmt = select(Video).order_by(Video.id)
     if cursor:
         stmt = stmt.where(Video.id > cursor)
+    if category:
+        stmt = stmt.where(Video.category == category)
+    if tag:
+        stmt = stmt.join(Video.tags).where(Tag.name.in_(tag))
 
     stmt = stmt.limit(limit)
     return session.execute(stmt).scalars().all()
+
+
+def list_categories(session: Session):
+    categories = session.execute(select(Video.category).distinct()).scalars().all()
+    category_dict = {}
+    for category in categories:
+        stmt = select(func.count(Video.id)).where(Video.category == category)
+        category_dict[category] = session.execute(stmt).scalar()
+
+    return {
+        "all_videos": session.scalar(select(func.count(Video.id))),
+        "categories": category_dict,
+    }
 
 
 def patch_tag_from_video(session: Session, video: Video, new_tags: dict):
