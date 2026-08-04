@@ -1,9 +1,4 @@
 {
-	"build": {
-		"docker": {
-			"path": "Dockerfile"
-		}
-	},
 	"configurations": [
 		{
 			"name": "Cloud Run: Run/Debug Locally",
@@ -14,7 +9,7 @@
 					"path": "Dockerfile"
 				}
 			},
-			"image": "watchLater-Backend",
+			"image": "watch_later_app",
 			"service": {
 				"name": "watchlaterbackend",
 				"containerPort": 8080,

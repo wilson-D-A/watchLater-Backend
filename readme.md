@@ -174,6 +174,18 @@ docker run --rm -p 8080:8080 watchlater-backend
 
 API will be available at `http://127.0.0.1:8080`.
 
+Database note for Docker:
+
+- Inside a container, `localhost` refers to the container itself.
+- This image defaults `DATABASE_URL` to `postgresql+psycopg2://wilson@host.docker.internal:5432/wilson` so it can reach PostgreSQL running on your host machine.
+- Override it if needed:
+
+```bash
+docker run --rm -p 8080:8080 \
+  -e DATABASE_URL="postgresql+psycopg2://<user>:<password>@<host>:5432/<db>" \
+  watchlater-backend
+```
+
 ## Notes
 
 - The current DB URL is hardcoded in `watchLater-api/database.py`.
