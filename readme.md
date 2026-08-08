@@ -177,8 +177,19 @@ API will be available at `http://127.0.0.1:8080`.
 Database note for Docker:
 
 - Inside a container, `localhost` refers to the container itself.
-- This image defaults `DATABASE_URL` to `postgresql+psycopg2://wilson@host.docker.internal:5432/wilson` so it can reach PostgreSQL running on your host machine.
-- Override it if needed:
+- The app now uses Cloud SQL environment variables by default. For your instance, set:
+
+```bash
+docker run --rm -p 8080:8080 \
+  -e DB_USER="<db-user>" \
+  -e DB_PASSWORD="<db-password>" \
+  -e DB_NAME="<db-name>" \
+  -e CLOUD_SQL_CONNECTION_NAME="project-6d40a2d5-26a5-4210-a34:us-east1:watchlater" \
+  watchlater-backend
+```
+
+- If you are using the Cloud SQL Auth Proxy, make sure the proxy socket is available at `/cloudsql/<connection-name>` inside the container.
+- If you prefer to use a direct TCP connection instead, you can still override `DATABASE_URL` manually:
 
 ```bash
 docker run --rm -p 8080:8080 \

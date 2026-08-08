@@ -10,7 +10,8 @@ COPY . .
 WORKDIR /app/watchLater-api
 
 ENV PORT=8080
-ENV DATABASE_URL=postgresql+psycopg2://wilson@host.docker.internal:5432/wilson
+ENV OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
 EXPOSE 8080
 
 CMD ["sh", "-c", "uvicorn routes:app --host 0.0.0.0 --port ${PORT:-8080}"]

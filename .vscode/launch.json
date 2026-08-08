@@ -11,8 +11,37 @@
 			},
 			"image": "watch_later_app",
 			"service": {
-				"name": "watchlaterbackend",
+				"name": "watchlaterbacked",
 				"containerPort": 8080,
+				"cloudSqlInstances": [
+					"project-6d40a2d5-26a5-4210-a34:us-east1:watchlater"
+				],
+				"env": [
+					{
+						"name": "GOOGLE_APPLICATION_CREDENTIALS",
+						"value": "/Users/wilson/.config/gcloud/application_default_credentials.json"
+					},
+					{
+						"name": "DB_USER",
+						"value": "${env:DB_USER}"
+					},
+					{
+						"name": "DB_PASSWORD",
+						"value": "${env:DB_PASSWORD}"
+					},
+					{
+						"name": "DB_NAME",
+						"value": "${env:DB_NAME}"
+					},
+					{
+						"name": "CLOUD_SQL_CONNECTION_NAME",
+						"value": "${env:CLOUD_SQL_CONNECTION_NAME}"
+					},
+					{
+						"name": "DB_IP_TYPE",
+						"value": "${env:DB_IP_TYPE}"
+					}
+				],
 				"resources": {
 					"limits": {
 						"memory": "256Mi"

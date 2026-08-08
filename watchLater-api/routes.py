@@ -1,7 +1,9 @@
 from fastapi import FastAPI, Depends, Query
 from schemas import TagBase, VideoBase, TagPatch, CategoryResponse
 from typing import Annotated
-from database import get_session
+from contextlib import asynccontextmanager
+import os
+from database import get_session, init_db, close_connector
 from crud import (
     get_all_tags_in_category,
     list_categories,
@@ -12,7 +14,18 @@ from crud import (
 )
 from sqlalchemy.orm import Session
 
-app = FastAPI()
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    if os.getenv("INIT_DB_ON_STARTUP", "false").lower() == "true":
+        init_db()
+    try:
+        yield
+    finally:
+        close_connector()
+
+
+app = FastAPI(lifespan=lifespan)
 
 
 @app.get("/videos", response_model=list[VideoBase])
