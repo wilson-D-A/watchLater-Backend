@@ -1,12 +1,11 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class TagBase(BaseModel):
-    name: str
+    name: str | None = None
     type: str | None = None
 
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class VideoBase(BaseModel):
@@ -18,10 +17,9 @@ class VideoBase(BaseModel):
     is_short: bool | None = None
     url: str
     category: str
-    tags: list[TagBase] = []
+    tags: list[TagBase] = Field(default_factory=list)
 
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class TagPatch(BaseModel):

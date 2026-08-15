@@ -17,7 +17,10 @@ def get_youtube_id(url: str) -> str | None:
     return match.group(1) if match else None
 
 
-def add_thumbnail_to_video(video: Video):
+def add_thumbnail_to_video(video: Video, json_file: str):
+    json_path = Path("api") / json_file
+    with open(json_path, "r") as f:
+        data = json.loads(f.read())
     # query all videos in the database
     # for each video, if the video is a short, set the thumbnail to the thumbnail in the data, else set it to the youtube thumbnail
     if video.is_short:
