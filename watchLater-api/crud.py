@@ -1,13 +1,15 @@
 from models import Video, Tag
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
+from pathlib import Path
+import json
 
-# json_path = Path("api") / "liked_playlist_claude.json"
-
-# with open(json_path, "r") as f:
-#     data = json.loads(f.read())
 
 import re
+
+# ---------------------------------------------------------------------------
+# 1) URL / media helper functions
+# ---------------------------------------------------------------------------
 
 
 def get_youtube_id(url: str) -> str | None:
@@ -29,7 +31,15 @@ def add_thumbnail_to_video(video: Video):
     return f"Thumbnail for video {video.id} set to {video.thumbnail}"
 
 
-def create_video(session: Session, data: list[dict]):
+# ---------------------------------------------------------------------------
+# 2) Video creation / ingestion helpers
+# ---------------------------------------------------------------------------
+
+
+def create_video(session: Session, json_file: str):
+    json_path = Path("api") / json_file
+    with open(json_path, "r") as f:
+        data = json.loads(f.read())
     video = None
     types = ["concept", "tool", "topic"]
     for video_data in data:
@@ -54,7 +64,30 @@ def create_video(session: Session, data: list[dict]):
     return video
 
 
-def seed_tag_types(session: Session, data: list[dict] = data):
+def seed_videos_from_file(session: Session, json_file: str):
+    json_path = Path("api") / json_file
+    with open(json_path, "r") as f:
+        data = json.loads(f.read())
+    create_video(session, json_file)
+
+
+def delete_repeated_videos(session: Session):
+    videos = session.execute(select(Video)).scalars().all()
+    seen_urls = set()
+    for video in videos:
+        if video.url in seen_urls:
+            session.delete(video)
+        else:
+            seen_urls.add(video.url)
+    session.commit()
+
+
+# ---------------------------------------------------------------------------
+# 3) Tag classification / seeding operations
+# ---------------------------------------------------------------------------
+
+
+def seed_tag_types(session: Session, data: list[dict]):
     get_all_videos = (
         session.execute(select(Video).where(Video.is_short == True)).scalars().all()
     )
@@ -72,19 +105,7 @@ def seed_tag_types(session: Session, data: list[dict] = data):
     print(video)
 
 
-def delete_all_tags_from_videos(session: Session):
-    get_all_videos = (
-        session.execute(select(Video).where(Video.is_short == True)).scalars().all()
-    )
-
-    for video in get_all_videos:
-        for tag in video.tags:
-            session.delete(tag)
-
-    session.commit()
-
-
-def seed_tag_from_file(session: Session, data: list[dict] = data):
+def seed_tag_from_file(session: Session, data: list[dict]):
     get_all_videos = (
         session.execute(select(Video).where(Video.is_short == True)).scalars().all()
     )
@@ -107,19 +128,9 @@ def seed_tag_from_file(session: Session, data: list[dict] = data):
     session.commit()
 
 
-def delete_repeated_videos(session: Session):
-    videos = session.execute(select(Video)).scalars().all()
-    seen_urls = set()
-    for video in videos:
-        if video.url in seen_urls:
-            session.delete(video)
-        else:
-            seen_urls.add(video.url)
-    session.commit()
-
-
-def seed_videos_from_file(session: Session, data: list[dict]):
-    create_video(session, data)
+# ---------------------------------------------------------------------------
+# 4) Read / lookup operations
+# ---------------------------------------------------------------------------
 
 
 def get_video_by_id(session: Session, video_id: int):
@@ -130,14 +141,8 @@ def get_tag_by_video(session: Session, video_id: int):
     return session.execute(select(Tag).where(Tag.video_id == video_id)).scalars().all()
 
 
-def get_all_tags_in_category(session: Session, category: str):
-    return (
-        session.execute(
-            select(Tag).join(Video).where(Video.category == category).order_by(Tag.id)
-        )
-        .scalars()
-        .all()
-    )
+def get_all_videos(session: Session):
+    return session.execute(select(Video)).scalars().all()
 
 
 def filter_videos(
@@ -146,10 +151,6 @@ def filter_videos(
     stmt = select(Video)
 
     return session.execute(stmt).scalars().all()
-
-
-def get_all_videos(session: Session):
-    return session.execute(select(Video)).scalars().all()
 
 
 def get_all_videos_cursor_pg(
@@ -171,6 +172,16 @@ def get_all_videos_cursor_pg(
     return session.execute(stmt).scalars().all()
 
 
+def get_all_tags_in_category(session: Session, category: str):
+    return (
+        session.execute(
+            select(Tag).join(Video).where(Video.category == category).order_by(Tag.id)
+        )
+        .scalars()
+        .all()
+    )
+
+
 def list_categories(session: Session):
     categories = session.execute(select(Video.category).distinct()).scalars().all()
     category_dict = {}
@@ -182,6 +193,11 @@ def list_categories(session: Session):
         "all_videos": session.scalar(select(func.count(Video.id))),
         "categories": category_dict,
     }
+
+
+# ---------------------------------------------------------------------------
+# 5) Tag patching / mutation helpers
+# ---------------------------------------------------------------------------
 
 
 def patch_tag_from_video(session: Session, video: Video, new_tags: dict):
@@ -201,6 +217,23 @@ def patch_tag_from_video(session: Session, video: Video, new_tags: dict):
     session.commit()
     session.refresh(video)
     return video.tags
+
+
+# ---------------------------------------------------------------------------
+# 6) Delete operations
+# ---------------------------------------------------------------------------
+
+
+def delete_all_tags_from_videos(session: Session):
+    get_all_videos = (
+        session.execute(select(Video).where(Video.is_short == True)).scalars().all()
+    )
+
+    for video in get_all_videos:
+        for tag in video.tags:
+            session.delete(tag)
+
+    session.commit()
 
 
 def delete_video_from_db(session: Session, video: Video):

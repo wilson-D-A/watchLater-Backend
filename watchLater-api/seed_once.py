@@ -3,7 +3,6 @@ from sqlalchemy.orm import Session
 from crud import (
     get_all_tags_in_category,
     seed_videos_from_file,
-    data,
 )
 from models import Video
 from sqlalchemy import select, func
@@ -25,7 +24,7 @@ def seed_videos(session: Session):
 def main() -> None:
     try:
         with Session(engine) as session:
-            get_all_tags_in_category(session, category="Engineering Practices")
+            print(get_all_tags_in_category(session, category="Engineering Practices"))
     finally:
         engine.dispose()
         close_connector()
