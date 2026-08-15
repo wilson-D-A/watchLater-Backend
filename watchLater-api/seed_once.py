@@ -1,9 +1,13 @@
 from sqlalchemy.orm import Session
 
-from crud import seed_videos_from_file, data, add_thumbnail_to_video, get_all_videos
+from crud import (
+    get_all_tags_in_category,
+    seed_videos_from_file,
+    data,
+)
 from models import Video
 from sqlalchemy import select, func
-from database import engine
+from database import close_connector, engine
 
 
 def seed_videos(session: Session):
@@ -19,11 +23,12 @@ def seed_videos(session: Session):
 
 
 def main() -> None:
-    with Session(engine) as session:
-        videos = get_all_videos(session)
-        for video in videos:
-            add_thumbnail_to_video(video)
-            session.commit()
+    try:
+        with Session(engine) as session:
+            get_all_tags_in_category(session, category="Engineering Practices")
+    finally:
+        engine.dispose()
+        close_connector()
 
 
 if __name__ == "__main__":

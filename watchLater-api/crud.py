@@ -2,7 +2,7 @@ from models import Video, Tag
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
-# json_path = Path() / "liked_playlist.json"
+# json_path = Path("api") / "liked_playlist_claude.json"
 
 # with open(json_path, "r") as f:
 #     data = json.loads(f.read())
@@ -54,8 +54,11 @@ def create_video(session: Session, data: list[dict]):
     return video
 
 
-def seed_tag_types(session: Session):
-    get_all_videos = session.execute(select(Video)).scalars().all()
+def seed_tag_types(session: Session, data: list[dict] = data):
+    get_all_videos = (
+        session.execute(select(Video).where(Video.is_short == True)).scalars().all()
+    )
+
     for i, video in enumerate(get_all_videos):
         for j, tag in enumerate(video.tags):
             if j == 0:
@@ -67,6 +70,52 @@ def seed_tag_types(session: Session):
 
     session.commit()
     print(video)
+
+
+def delete_all_tags_from_videos(session: Session):
+    get_all_videos = (
+        session.execute(select(Video).where(Video.is_short == True)).scalars().all()
+    )
+
+    for video in get_all_videos:
+        for tag in video.tags:
+            session.delete(tag)
+
+    session.commit()
+
+
+def seed_tag_from_file(session: Session, data: list[dict] = data):
+    get_all_videos = (
+        session.execute(select(Video).where(Video.is_short == True)).scalars().all()
+    )
+
+    for video in get_all_videos:
+        types = ["concept", "tool", "topic"]
+        data_video = next((item for item in data if item["url"] == video.url), None)
+        if data_video:
+            for i, tag_name in enumerate(data_video.get("tag", [])):
+                if i < len(video.tags):
+                    video.tags[i].name = tag_name
+                else:
+                    new_tag = Tag(
+                        name=tag_name,
+                        type=types[i] if i < len(types) else None,
+                        video=video,
+                    )
+                    session.add(new_tag)
+
+    session.commit()
+
+
+def delete_repeated_videos(session: Session):
+    videos = session.execute(select(Video)).scalars().all()
+    seen_urls = set()
+    for video in videos:
+        if video.url in seen_urls:
+            session.delete(video)
+        else:
+            seen_urls.add(video.url)
+    session.commit()
 
 
 def seed_videos_from_file(session: Session, data: list[dict]):
@@ -83,7 +132,9 @@ def get_tag_by_video(session: Session, video_id: int):
 
 def get_all_tags_in_category(session: Session, category: str):
     return (
-        session.execute(select(Tag).join(Video).where(Video.category == category))
+        session.execute(
+            select(Tag).join(Video).where(Video.category == category).order_by(Tag.id)
+        )
         .scalars()
         .all()
     )
