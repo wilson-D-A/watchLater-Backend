@@ -1,0 +1,18 @@
+apiVersion: skaffold/v4beta7
+kind: Config
+metadata:
+  name: watch-later-app
+manifests:
+  rawYaml:
+    - pod.yaml
+    - secret.yaml
+deploy:
+  kubectl: {}
+profiles:
+  - name: local
+    patches:
+      - op: add
+        path: /spec/containers/0/env/-
+        value:
+          name: GOOGLE_APPLICATION_CREDENTIALS
+          value: /secrets/key.json

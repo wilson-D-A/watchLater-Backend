@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: watchlaterbacked
+  labels:
+    app: watchlaterbacked
+spec:
+  containers:
+    - name: watchlaterbacked-container
+      image: watch_later_app
+      env:
+        - name: GOOGLE_APPLICATION_CREDENTIALS
+          value: /secrets/key.json
+      volumeMounts:
+        - name: gcp-creds
+          mountPath: /secrets
+          readOnly: true
+  volumes:
+    - name: gcp-creds
+      secret:
+        secretName: local-development-credential

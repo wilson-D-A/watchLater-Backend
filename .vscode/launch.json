@@ -18,28 +18,40 @@
 				],
 				"env": [
 					{
+						"name": "LOCAL_DEV",
+						"value": "true"
+					},
+					{
+						"name": "DB_HOST",
+						"value": "host.docker.internal"
+					},
+					{
+						"name": "DB_PORT",
+						"value": "6543"
+					},
+					{
 						"name": "GOOGLE_APPLICATION_CREDENTIALS",
 						"value": "/Users/wilson/.config/gcloud/application_default_credentials.json"
 					},
 					{
 						"name": "DB_USER",
-						"value": "${env:DB_USER}"
+						"value": "postgres"
 					},
 					{
 						"name": "DB_PASSWORD",
-						"value": "${env:DB_PASSWORD}"
+						"value": "#u>x3L{F|l:S{8-<"
 					},
 					{
 						"name": "DB_NAME",
-						"value": "${env:DB_NAME}"
+						"value": "watchlater"
 					},
 					{
 						"name": "CLOUD_SQL_CONNECTION_NAME",
-						"value": "${env:CLOUD_SQL_CONNECTION_NAME}"
+						"value": "project-6d40a2d5-26a5-4210-a34:us-east1:watchlater"
 					},
 					{
 						"name": "DB_IP_TYPE",
-						"value": "${env:DB_IP_TYPE}"
+						"value": "PUBLIC"
 					}
 				],
 				"resources": {

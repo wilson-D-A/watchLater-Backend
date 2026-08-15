@@ -30,8 +30,8 @@ Backend service and data pipeline for organizing YouTube Watch Later videos into
 ## Prerequisites
 
 1. Python 3.11+
-2. PostgreSQL running locally
-3. A database matching the connection string in `watchLater-api/database.py`
+2. PostgreSQL running locally, or Cloud SQL Auth Proxy forwarding your Cloud SQL instance to `127.0.0.1:5432`
+3. Database credentials exported in your environment or `.env`
 4. (Optional for classification) Anthropic API key in `.env`
 
 ## Local Setup
@@ -55,13 +55,18 @@ pip install -r requirements.txt
 pip install psycopg2-binary
 ```
 
-4. Review database connection in `watchLater-api/database.py`:
+4. For local development through Cloud SQL Auth Proxy, export:
 
-```python
-engine = create_engine("postgresql+psycopg2://wilson@localhost:5432/wilson")
+```bash
+export LOCAL_DEV=true
+export DB_USER="<db-user>"
+export DB_PASSWORD="<db-password>"
+export DB_NAME="<db-name>"
+export DB_HOST="127.0.0.1"
+export DB_PORT="5432"
 ```
 
-Update username, host, port, and database name to match your local setup.
+If you prefer a fully custom connection string, set `DATABASE_URL` instead.
 
 5. Start the API:
 

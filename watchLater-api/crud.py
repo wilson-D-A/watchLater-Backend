@@ -163,7 +163,7 @@ def get_all_videos_cursor_pg(
     category: str | None = None,
     tag: list[str] | None = None,
 ):
-    stmt = select(Video).order_by(Video.id)
+    stmt = select(Video).order_by(Video.title.asc())
     if cursor:
         stmt = stmt.where(Video.id > cursor)
     if category:
