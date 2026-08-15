@@ -1,0 +1,1082 @@
+[
+	{
+		"id": 1,
+		"title": "Postgres Interview Question!",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/6PtHyHI6RoA",
+		"category": "Backend",
+		"tag": ["Databases", "PostgreSQL", "Interview Prep"]
+	},
+	{
+		"id": 2,
+		"title": "System Design Interview Guide #coding #programming",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/9qkafcFWoFc",
+		"category": "Career",
+		"tag": ["System Design", null, "Interview Prep"]
+	},
+	{
+		"id": 3,
+		"title": "Containers vs Virtual Machines Explained\ud83d\udcbb",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/biDEGt6XWc4",
+		"category": "Cloud & DevOps",
+		"tag": ["Virtualization", "Containers", "Infrastructure"]
+	},
+	{
+		"id": 4,
+		"title": "AI Security: Preventing Data Leaks in RAG \ud83d\udd13",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/3sM_XmXZnDI",
+		"category": "AI",
+		"tag": ["Security", "RAG", "Data Protection"]
+	},
+	{
+		"id": 5,
+		"title": "Stop Nesting Your Code So Much",
+		"channelName": "@WebDevSimplified",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/JnFh2NoAM4s",
+		"category": "Engineering Practices",
+		"tag": ["Clean Code", null, "Refactoring"]
+	},
+	{
+		"id": 6,
+		"title": "Von Neumann Vs Harvard Architecture | Computer Architecture #engineering #computerscience",
+		"channelName": "@thedigitalfolks",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/teEbQGhgzz4",
+		"category": "Computer Science",
+		"tag": ["Computer Architecture", null, "Hardware Design"]
+	},
+	{
+		"id": 7,
+		"title": "How to modify your prod database",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/73TrLfcwTTU",
+		"category": "Backend",
+		"tag": ["Databases", null, "Production Management"]
+	},
+	{
+		"id": 8,
+		"title": "What interviewers actually expect at mid-level vs senior vs staff engineer",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/LjCVenIae7g",
+		"category": "Career",
+		"tag": ["Career Levels", null, "Interview Prep"]
+	},
+	{
+		"id": 9,
+		"title": "3 Concepts That Cover 90% of JS #Shorts #webdev #programming",
+		"channelName": "@pixelgridui",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/TjthoZ98Fik",
+		"category": "Core Programming",
+		"tag": ["Fundamentals", "JavaScript", "Language Concepts"]
+	},
+	{
+		"id": 10,
+		"title": "true Polling v SSE v WebSockets v QUIC #programming #coding #technicalinterview",
+		"channelName": "@TechPrepYT",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/LB4O5bTqna4",
+		"category": "Backend",
+		"tag": ["Networking", "WebSockets", "Real-time Communication"]
+	},
+	{
+		"id": 11,
+		"title": "gRPC, WebSocket and WebHook!",
+		"channelName": "@ByteByteGo",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/f7KgDNZU3-Y",
+		"category": "Backend",
+		"tag": ["APIs", "gRPC", "Communication Protocols"]
+	},
+	{
+		"id": 12,
+		"title": "3 Ways to Make Your Website 3\u00d7 Faster \u26a1 #shorts",
+		"channelName": "@Codexium-dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/7OsxDwhaiWM",
+		"category": "Frontend",
+		"tag": ["Performance", null, "Web Optimization"]
+	},
+	{
+		"id": 13,
+		"title": "Separate DB per service? Explained in 60 seconds. #systemdesign #softwaredesign #interviewquestions",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/jg-Dy0GNPvQ",
+		"category": "Backend",
+		"tag": ["System Design", null, "Microservices"]
+	},
+	{
+		"id": 14,
+		"title": "Stateful vs. Stateless Architecture!",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/4GwXyVIbKfY",
+		"category": "Backend",
+		"tag": ["System Design", null, "Architecture"]
+	},
+	{
+		"id": 15,
+		"title": "Postgres Interview Question!",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/6PtHyHI6RoA",
+		"category": "Backend",
+		"tag": ["Databases", "PostgreSQL", "Interview Prep"]
+	},
+	{
+		"id": 16,
+		"title": "System Design Interview Guide #coding #programming",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/9qkafcFWoFc",
+		"category": "Career",
+		"tag": ["System Design", null, "Interview Prep"]
+	},
+	{
+		"id": 17,
+		"title": "Containers vs Virtual Machines Explained\ud83d\udcbb",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/biDEGt6XWc4",
+		"category": "Cloud & DevOps",
+		"tag": ["Virtualization", "Containers", "Infrastructure"]
+	},
+	{
+		"id": 18,
+		"title": "AI Security: Preventing Data Leaks in RAG \ud83d\udd13",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/3sM_XmXZnDI",
+		"category": "AI",
+		"tag": ["Security", "RAG", "Data Protection"]
+	},
+	{
+		"id": 19,
+		"title": "Stop Nesting Your Code So Much",
+		"channelName": "@WebDevSimplified",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/JnFh2NoAM4s",
+		"category": "Engineering Practices",
+		"tag": ["Clean Code", null, "Refactoring"]
+	},
+	{
+		"id": 20,
+		"title": "Von Neumann Vs Harvard Architecture | Computer Architecture #engineering #computerscience",
+		"channelName": "@thedigitalfolks",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/teEbQGhgzz4",
+		"category": "Computer Science",
+		"tag": ["Computer Architecture", null, "Hardware Design"]
+	},
+	{
+		"id": 21,
+		"title": "How to modify your prod database",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/73TrLfcwTTU",
+		"category": "Backend",
+		"tag": ["Databases", null, "Production Management"]
+	},
+	{
+		"id": 22,
+		"title": "What interviewers actually expect at mid-level vs senior vs staff engineer",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/LjCVenIae7g",
+		"category": "Career",
+		"tag": ["Career Levels", null, "Interview Prep"]
+	},
+	{
+		"id": 23,
+		"title": "3 Concepts That Cover 90% of JS #Shorts #webdev #programming",
+		"channelName": "@pixelgridui",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/TjthoZ98Fik",
+		"category": "Core Programming",
+		"tag": ["Fundamentals", "JavaScript", "Language Concepts"]
+	},
+	{
+		"id": 24,
+		"title": "true Polling v SSE v WebSockets v QUIC #programming #coding #technicalinterview",
+		"channelName": "@TechPrepYT",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/LB4O5bTqna4",
+		"category": "Backend",
+		"tag": ["Networking", "WebSockets", "Real-time Communication"]
+	},
+	{
+		"id": 25,
+		"title": "gRPC, WebSocket and WebHook!",
+		"channelName": "@ByteByteGo",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/f7KgDNZU3-Y",
+		"category": "Backend",
+		"tag": ["APIs", "gRPC", "Communication Protocols"]
+	},
+	{
+		"id": 1,
+		"title": "3 Ways to Make Your Website 3\u00d7 Faster \u26a1 #shorts",
+		"channelName": "@Codexium-dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/7OsxDwhaiWM",
+		"category": "Frontend",
+		"tag": ["performance optimization", "web browser", "website speed"]
+	},
+	{
+		"id": 2,
+		"title": "Separate DB per service? Explained in 60 seconds. #systemdesign #softwaredesign #interviewquestions",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/jg-Dy0GNPvQ",
+		"category": "Backend",
+		"tag": ["microservices", "database", "system design"]
+	},
+	{
+		"id": 3,
+		"title": "Stateful vs. Stateless Architecture!",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/4GwXyVIbKfY",
+		"category": "Backend",
+		"tag": ["architecture", "server", "stateful vs stateless"]
+	},
+	{
+		"id": 4,
+		"title": "Database Sharding vs Database Partition Explained in 1min! #systemdesign #systemdesigninterview",
+		"channelName": "@SimpleSystemDesign",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/C16h-FqTrhs",
+		"category": "Backend",
+		"tag": ["sharding", "database", "system design"]
+	},
+	{
+		"id": 5,
+		"title": "How to Use React Query Correctly",
+		"channelName": "@cosdensolutions",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/0NU9aCTLopo",
+		"category": "Frontend",
+		"tag": ["data fetching", "React Query", "state management"]
+	},
+	{
+		"id": 6,
+		"title": "AI Coding Interviews",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/rPwT0yXdFXs",
+		"category": "Career",
+		"tag": ["interview prep", "AI", "coding interviews"]
+	},
+	{
+		"id": 7,
+		"title": "NYC's subway map could look like THIS #nyc #subway #transit #mta #train #urbanism",
+		"channelName": "@Streetsblog-NYC",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/wNDyh5jm9kA",
+		"category": "Miscellaneous",
+		"tag": ["urban planning", "subway map", "transit"]
+	},
+	{
+		"id": 8,
+		"title": "Database Sharding vs Database Partition Explained in 1min! #systemdesign #systemdesigninterview",
+		"channelName": "@SimpleSystemDesign",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/C16h-FqTrhs",
+		"category": "Backend",
+		"tag": ["sharding", "database", "system design"]
+	},
+	{
+		"id": 9,
+		"title": "How to Use React Query Correctly",
+		"channelName": "@cosdensolutions",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/0NU9aCTLopo",
+		"category": "Frontend",
+		"tag": ["data fetching", "React Query", "state management"]
+	},
+	{
+		"id": 10,
+		"title": "AI Coding Interviews",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/rPwT0yXdFXs",
+		"category": "Career",
+		"tag": ["interview prep", "AI", "coding interviews"]
+	},
+	{
+		"id": 11,
+		"title": "NYC's subway map could look like THIS #nyc #subway #transit #mta #train #urbanism",
+		"channelName": "@Streetsblog-NYC",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/wNDyh5jm9kA",
+		"category": "Miscellaneous",
+		"tag": ["urban planning", "subway map", "transit"]
+	},
+	{
+		"id": 12,
+		"title": "Why Every Backend Uses Kafka",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/fe57ccAkZtY",
+		"category": "Backend",
+		"tag": ["message queue", "Kafka", "event streaming"]
+	},
+	{
+		"id": 13,
+		"title": "Tricky Database Interview Question\ud83e\udd2f",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/zKa4FXts6Go",
+		"category": "Backend",
+		"tag": ["query optimization", "database", "interview questions"]
+	},
+	{
+		"id": 14,
+		"title": "Why Every Backend Uses Kafka",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/fe57ccAkZtY",
+		"category": "Backend",
+		"tag": ["message queue", "Kafka", "event streaming"]
+	},
+	{
+		"id": 15,
+		"title": "Tricky Database Interview Question\ud83e\udd2f",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/zKa4FXts6Go",
+		"category": "Backend",
+		"tag": ["query optimization", "database", "interview questions"]
+	},
+	{
+		"id": 16,
+		"title": "Consistent Hashing Explained (System Design Basics)",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/AIuZExZFHNU",
+		"category": "Computer Science",
+		"tag": ["hashing", "distributed systems", "system design"]
+	},
+	{
+		"id": 17,
+		"title": "Consistent Hashing Explained (System Design Basics)",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/AIuZExZFHNU",
+		"category": "Computer Science",
+		"tag": ["hashing", "distributed systems", "system design"]
+	},
+	{
+		"id": 18,
+		"title": "How Caching Saves Your App from Crashing\ud83d\udea8",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/oz1FrycaQM4",
+		"category": "Backend",
+		"tag": ["caching", "cache", "performance"]
+	},
+	{
+		"id": 19,
+		"title": "4 ways to push real-time updates to clients. Most engineers only know 1.",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/38IqoJd7j5E",
+		"category": "Backend",
+		"tag": ["real-time updates", "WebSocket", "system design"]
+	},
+	{
+		"id": 20,
+		"title": "Why pro designs feel 'expensive' \u2014 it's just spacing",
+		"channelName": "@pixelgridui",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/4GR2Blt-tdE",
+		"category": "Frontend",
+		"tag": ["spacing", "UI design", "visual design"]
+	},
+	{
+		"id": 21,
+		"title": "OS Internals: Processes vs. Threads Memory Layout!",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/JpD-IKdItRw",
+		"category": "Computer Science",
+		"tag": ["memory layout", "operating system", "processes vs threads"]
+	},
+	{
+		"id": 22,
+		"title": "How Caching Saves Your App from Crashing\ud83d\udea8",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/oz1FrycaQM4",
+		"category": "Backend",
+		"tag": ["caching", "cache", "performance"]
+	},
+	{
+		"id": 23,
+		"title": "4 ways to push real-time updates to clients. Most engineers only know 1.",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/38IqoJd7j5E",
+		"category": "Backend",
+		"tag": ["real-time updates", "WebSocket", "system design"]
+	},
+	{
+		"id": 24,
+		"title": "Why pro designs feel 'expensive' \u2014 it's just spacing",
+		"channelName": "@pixelgridui",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/4GR2Blt-tdE",
+		"category": "Frontend",
+		"tag": ["spacing", "UI design", "visual design"]
+	},
+	{
+		"id": 25,
+		"title": "OS Internals: Processes vs. Threads Memory Layout!",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/JpD-IKdItRw",
+		"category": "Computer Science",
+		"tag": ["memory layout", "operating system", "processes vs threads"]
+	},
+	{
+		"id": 1,
+		"title": "Closures explained, Why your click counter never resets #shorts",
+		"channelName": "@pixelgridui",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/DOya17e63Lk",
+		"category": "Core Programming",
+		"tag": ["closures", "javascript", "state management"]
+	},
+	{
+		"id": 2,
+		"title": "4 Amazing Chest Builders You\u2019re Missing Out On",
+		"channelName": "@JeffNippard",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/3TN4otAxzZk",
+		"category": "Personal Development",
+		"tag": ["fitness", "gym", "chest workout"]
+	},
+	{
+		"id": 3,
+		"title": "Synchronous vs Asynchronous Requests Explained (System Design Basics)",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/GddXpLm7ta0",
+		"category": "Computer Science",
+		"tag": ["async", "system design", "requests"]
+	},
+	{
+		"id": 4,
+		"title": "Software Engineer vs Product Engineer",
+		"channelName": "@itsnextwork",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/DvcB0ZSDd0A",
+		"category": "Career",
+		"tag": ["engineering roles", null, "product engineering"]
+	},
+	{
+		"id": 5,
+		"title": "Minimum Window Subsequence | DP | Hard",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/r5fooD_Fxkg",
+		"category": "Computer Science",
+		"tag": ["dynamic programming", null, "algorithms"]
+	},
+	{
+		"id": 6,
+		"title": "Docker Interview: Rapid Fire Round (Can You Keep Up?)",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/f-MpyJ-aPsY",
+		"category": "Cloud & DevOps",
+		"tag": ["containers", "docker", "interview prep"]
+	},
+	{
+		"id": 7,
+		"title": "Docker Storage: Bind Mounts vs. Named Volumes!",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/WgbymXi7mK4",
+		"category": "Cloud & DevOps",
+		"tag": ["storage", "docker", "volumes"]
+	},
+	{
+		"id": 8,
+		"title": "The Roadmap to Build a Production-Ready Full-Stack Web App in 5 Days with Minimal Resources",
+		"channelName": "@CareerLandingGroup",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/zxfTArjbyto",
+		"category": "Engineering Practices",
+		"tag": ["full-stack", null, "web development"]
+	},
+	{
+		"id": 9,
+		"title": "Design Webhooks Processing System",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/vdx4-z5CoBk",
+		"category": "Computer Science",
+		"tag": ["system design", "webhooks", "architecture"]
+	},
+	{
+		"id": 10,
+		"title": "Docker Exit Code 137 Explained in 2 Minutes (Interview Question)",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/c5aB_QOnwN8",
+		"category": "Cloud & DevOps",
+		"tag": ["containers", "docker", "debugging"]
+	},
+	{
+		"id": 11,
+		"title": "Signs you\u2019re trauma-bonded and calling it love #shorts",
+		"channelName": "@DrTraceyMarks",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/RmC1m8Q7034",
+		"category": "Personal Development",
+		"tag": ["mental health", null, "relationships"]
+	},
+	{
+		"id": 12,
+		"title": "Free MIT courses \ud83e\udeaa #code #coding #tech #learntocode #datascience",
+		"channelName": "@softwarewithnick",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/DqmsWfdHw2c",
+		"category": "Career",
+		"tag": ["learning", "mit", "online courses"]
+	},
+	{
+		"id": 13,
+		"title": "REST vs GraphQL vs gRPC: Which API wins in system design interviews?",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/Q3f5jmIwN3Y",
+		"category": "Backend",
+		"tag": ["api design", "graphql", "system design"]
+	},
+	{
+		"id": 14,
+		"title": "2026 Backend Engineer Roadmap",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/JOV_nLWAKrg",
+		"category": "Backend",
+		"tag": ["roadmap", null, "backend development"]
+	},
+	{
+		"id": 15,
+		"title": "TCP vs UDP Explained with WhatsApp",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/mh8geod4VRI",
+		"category": "Computer Science",
+		"tag": ["networking", null, "protocols"]
+	},
+	{
+		"id": 16,
+		"title": "Amazon Style Interview Question",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/5V4b2P28-70",
+		"category": "Career",
+		"tag": ["interview", null, "coding interview"]
+	},
+	{
+		"id": 17,
+		"title": "YouTube Upload",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/hMTOYedA818",
+		"category": "Computer Science",
+		"tag": ["system design", null, "video processing"]
+	},
+	{
+		"id": 18,
+		"title": "Uber | System Design in 60 Seconds #systemdesigninterview #uber #ridesharing",
+		"channelName": "@TechPrepYT",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/xMlsVPH_SWA",
+		"category": "Computer Science",
+		"tag": ["system design", null, "ridesharing"]
+	},
+	{
+		"id": 19,
+		"title": "Every time the Haikyuu theme played at the Olympics",
+		"channelName": "@BlockchainVolleyball",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/l1LCSmBg9TU",
+		"category": "Miscellaneous",
+		"tag": ["anime", null, "sports"]
+	},
+	{
+		"id": 20,
+		"title": "Database indexing \ud83e\udee1#coding #programming #software engineer",
+		"channelName": "@sayeddev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/jD8nVDDlz8Y",
+		"category": "Backend",
+		"tag": ["indexing", "database", "performance"]
+	},
+	{
+		"id": 21,
+		"title": "SQL vs NoSQL in System Design",
+		"channelName": "@GregHogg",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/uA2OCDlT-9A",
+		"category": "Backend",
+		"tag": ["databases", "sql", "system design"]
+	},
+	{
+		"id": 22,
+		"title": "Regression Testing - System Design",
+		"channelName": "@GregHogg",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/uMoHw6T4dN8",
+		"category": "Engineering Practices",
+		"tag": ["testing", null, "regression testing"]
+	},
+	{
+		"id": 23,
+		"title": "System Design: Google Drive",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/mXA-r0yiSKs",
+		"category": "Computer Science",
+		"tag": ["system design", null, "file storage"]
+	},
+	{
+		"id": 24,
+		"title": "How to Scrape YouTube Data Using Python",
+		"channelName": "@ProxySeller",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/B7VxEQy9Occ",
+		"category": "Core Programming",
+		"tag": ["web scraping", "python", "data extraction"]
+	},
+	{
+		"id": 25,
+		"title": "Don\u2019t Skip These 3 Biceps Exercises",
+		"channelName": "@JeffNippard",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/_GziHDdJY10",
+		"category": "Personal Development",
+		"tag": ["fitness", "gym", "biceps workout"]
+	},
+	{
+		"id": 1,
+		"title": "Why your upload server should never touch the file bytes",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/dW-meGlxS0c",
+		"category": "Backend",
+		"tag": ["file upload", "upload server", "system design"]
+	},
+	{
+		"id": 2,
+		"title": "2 Ways to create a responsive grid with tailwind  #css #coding #programming #web #code #tailwindcss",
+		"channelName": "@HowtoWebDev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/NSYW3CY3VvM",
+		"category": "Frontend",
+		"tag": ["responsive grid", "Tailwind CSS", "CSS layout"]
+	},
+	{
+		"id": 3,
+		"title": "Let's write FizzBuzz",
+		"channelName": "@code",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/pNUwNxB6Yn4",
+		"category": "Core Programming",
+		"tag": ["FizzBuzz", "code editor", "coding basics"]
+	},
+	{
+		"id": 4,
+		"title": "Free Python for Data Science Resource \ud83d\ude0e #code #coding #tech #learntocode #datascience",
+		"channelName": "@softwarewithnick",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/1IMoFXKd-ko",
+		"category": "Core Programming",
+		"tag": ["data science", "Python", "learning resources"]
+	},
+	{
+		"id": 5,
+		"title": "Distributed transactions",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/5wiJvT7EY3o",
+		"category": "Backend",
+		"tag": ["distributed transactions", "databases", "system design"]
+	},
+	{
+		"id": 6,
+		"title": "Webscraping: Intern vs Jr vs Senior.",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/H7vDsPGaKZM",
+		"category": "Core Programming",
+		"tag": ["web scraping", "Python", "skill levels"]
+	},
+	{
+		"id": 7,
+		"title": "Container Interview Question",
+		"channelName": "@KodeKloud",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/8qx9LWQLGoE",
+		"category": "Cloud & DevOps",
+		"tag": ["containers", "Docker", "interviews"]
+	},
+	{
+		"id": 8,
+		"title": "Use Python to create a simple ETL data pipeline to extract, transform and load weather data from a R",
+		"channelName": "@sdw-online",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/d3Q7czh-tqo",
+		"category": "Backend",
+		"tag": ["ETL pipeline", "Python", "data engineering"]
+	},
+	{
+		"id": 9,
+		"title": "My Design to Deployment Process",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/_c1WOihUklQ",
+		"category": "Engineering Practices",
+		"tag": ["design to deployment", "workflow", "software process"]
+	},
+	{
+		"id": 10,
+		"title": "How To Beat ADHD",
+		"channelName": "@HealthyGamerGG",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/-UHnJ2NYSRU",
+		"category": "Personal Development",
+		"tag": ["ADHD", "self-help", "mental health"]
+	},
+	{
+		"id": 11,
+		"title": "3 Must Use TSConfig Features",
+		"channelName": "@WebDevSimplified",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/JcwH9RddzyE",
+		"category": "Frontend",
+		"tag": ["TSConfig", "TypeScript", "configuration"]
+	},
+	{
+		"id": 12,
+		"title": "Software Engineer Learning Path \ud83d\ude0e #code #coding #tech #learntocode #softwareengineer",
+		"channelName": "@softwarewithnick",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/Eebv8fuAIwk",
+		"category": "Career",
+		"tag": ["learning path", "roadmap", "software engineering"]
+	},
+	{
+		"id": 13,
+		"title": "NYC multimillionaire\u2019s shocking plea",
+		"channelName": "@moreperfectunion",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/6pPToWDAgWY",
+		"category": "Miscellaneous",
+		"tag": ["wealth", "news", "society"]
+	},
+	{
+		"id": 14,
+		"title": "Massive Coding GitHub Repo \ud83d\ude0e #code #coding #tech #learntocode #datascience #softwaredevelopment",
+		"channelName": "@softwarewithnick",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/Gw9Kux6UcmI",
+		"category": "Core Programming",
+		"tag": ["coding resources", "GitHub", "learning"]
+	},
+	{
+		"id": 15,
+		"title": "You\u2019re not cold. You learned to shut down to survive. #shorts",
+		"channelName": "@DrTraceyMarks",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/9iVloe8Xa2I",
+		"category": "Personal Development",
+		"tag": ["emotional shutdown", "self-awareness", "mental health"]
+	},
+	{
+		"id": 16,
+		"title": "VPS vs Managed",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/FcAufUpUT3U",
+		"category": "Cloud & DevOps",
+		"tag": ["hosting", "VPS", "infrastructure"]
+	},
+	{
+		"id": 17,
+		"title": "Top 3 database Indexes every engineer should know",
+		"channelName": "@hello_interview",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/338NIknyedw",
+		"category": "Backend",
+		"tag": ["database indexes", "databases", "performance"]
+	},
+	{
+		"id": 18,
+		"title": "Building an AI Agent in 30s",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/LCIvL5TXIic",
+		"category": "AI",
+		"tag": ["AI agents", "LLM", "automation"]
+	},
+	{
+		"id": 19,
+		"title": "Learn to manipulate data \ud83d\ude0e #code #coding #tech #learntocode #datascience",
+		"channelName": "@softwarewithnick",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/x_wf_eIT-jo",
+		"category": "Core Programming",
+		"tag": ["data manipulation", "Python", "data science"]
+	},
+	{
+		"id": 20,
+		"title": "You\u2019re not a pessimist. You have cognitive distortions. #shorts",
+		"channelName": "@DrTraceyMarks",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/ENdig1qbMJo",
+		"category": "Personal Development",
+		"tag": ["cognitive distortions", "CBT", "mental health"]
+	},
+	{
+		"id": 21,
+		"title": "3 GitHub Repos That Are Better Than A CS Degree",
+		"channelName": "@AIMNdev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/Hd3M8ZCkDy4",
+		"category": "Computer Science",
+		"tag": ["learning resources", "GitHub", "CS education"]
+	},
+	{
+		"id": 22,
+		"title": "drwxrwxrwx isn't gibberish...",
+		"channelName": "@bootdotdev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/Z9x2Ygf490I",
+		"category": "Cloud & DevOps",
+		"tag": ["file permissions", "Linux", "command line"]
+	},
+	{
+		"id": 23,
+		"title": "Learn git the easy way \ud83d\ude0e #code #coding #tech #learntocode #git",
+		"channelName": "@softwarewithnick",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/ejWvEbNkL6Y",
+		"category": "Engineering Practices",
+		"tag": ["version control", "Git", "workflow"]
+	},
+	{
+		"id": 24,
+		"title": "Fix a slow database. #coding #systemdesign",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/nSdR-Xa6u1Y",
+		"category": "Backend",
+		"tag": ["database optimization", "databases", "system design"]
+	},
+	{
+		"id": 25,
+		"title": "System Design Patterns #systemdesign",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/jBZZjgxC9CA",
+		"category": "Backend",
+		"tag": ["design patterns", "architecture", "system design"]
+	},
+	{
+		"id": 1,
+		"title": "How to handle large API responses #coding #programming",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/Rt1jS3MnVFg",
+		"category": "Backend",
+		"tag": ["API optimization", "REST", "data handling"]
+	},
+	{
+		"id": 2,
+		"title": "Scaling a web app. #coding #systemdesign",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/o2Q9SjXqQ7c",
+		"category": "Backend",
+		"tag": ["scalability", "load balancer", "system design"]
+	},
+	{
+		"id": 3,
+		"title": "5 Github Repos That Will 10x Your Next Claude Code Project",
+		"channelName": "@Chase-H-AI",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/5IRjY57Q3dY",
+		"category": "AI",
+		"tag": ["AI coding", "Claude Code", "productivity"]
+	},
+	{
+		"id": 4,
+		"title": "useMemo, When and Why You Need It",
+		"channelName": "@jherr",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/InnDVEup61U",
+		"category": "Frontend",
+		"tag": ["memoization", "React", "performance"]
+	},
+	{
+		"id": 5,
+		"title": "a little secret for binary tree questions \ud83e\udd2b",
+		"channelName": "@NeetCode",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/ymLp6HeKv1o",
+		"category": "Computer Science",
+		"tag": ["binary tree", "algorithms", "data structures"]
+	},
+	{
+		"id": 6,
+		"title": "The mark of something good #programming #coding #developerlife #microsoft #dotnet #csharp",
+		"channelName": "@stevanfreeborn",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/NKk5RRt1UfA",
+		"category": "Core Programming",
+		"tag": ["code quality", "C#", "best practices"]
+	},
+	{
+		"id": 7,
+		"title": "The AWS Services you should know.  #aws #coding #devops",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/yO0wC5SMDEo",
+		"category": "Cloud & DevOps",
+		"tag": ["cloud services", "AWS", "infrastructure"]
+	},
+	{
+		"id": 8,
+		"title": "5 predictions for the SWE job market in 2026.",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/pAM735qppI8",
+		"category": "Career",
+		"tag": ["job market", "industry trends", "software engineering"]
+	},
+	{
+		"id": 9,
+		"title": "Pass a coding interview.",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/Ic_BrZYVFw4",
+		"category": "Career",
+		"tag": ["interview prep", "LeetCode", "coding interview"]
+	},
+	{
+		"id": 10,
+		"title": "The System Design Interview",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/08YfwtIgyKE",
+		"category": "Career",
+		"tag": ["system design", "whiteboard", "interview"]
+	},
+	{
+		"id": 11,
+		"title": "NGiNX",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/HejEsMV0CJY",
+		"category": "Cloud & DevOps",
+		"tag": ["reverse proxy", "NGINX", "web server"]
+	},
+	{
+		"id": 12,
+		"title": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course",
+		"channelName": "@GithubAwesome",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/FdOQP8GZVrs",
+		"category": "AI",
+		"tag": ["code documentation", "Claude Code", "automation"]
+	},
+	{
+		"id": 13,
+		"title": "Personal Projects for SWE",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/2XDsPWETY7g",
+		"category": "Career",
+		"tag": ["portfolio building", "GitHub", "personal projects"]
+	},
+	{
+		"id": 14,
+		"title": "Learn to code by getting hands on \ud83d\ude0e #code #coding #tech #learntocode #data",
+		"channelName": "@softwarewithnick",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/qbzipHrA3nQ",
+		"category": "Personal Development",
+		"tag": ["learning to code", "hands-on", "education"]
+	},
+	{
+		"id": 15,
+		"title": "Pre-deployment checklist.",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/4e-UPp8o8j8",
+		"category": "Engineering Practices",
+		"tag": ["deployment", "CI/CD", "checklist"]
+	},
+	{
+		"id": 16,
+		"title": "3 Google Tools You MUST Use After Publishing Your Website! #frontend #webdevelopment #developer",
+		"channelName": "@AlaaCode",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/jVWsZapBc4w",
+		"category": "Frontend",
+		"tag": ["web analytics", "Google Tools", "SEO"]
+	},
+	{
+		"id": 17,
+		"title": "What is GCP CloudRun?",
+		"channelName": "@CloudAIverse",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/2_iU-Fo4K6M",
+		"category": "Cloud & DevOps",
+		"tag": ["serverless", "Google Cloud Run", "containers"]
+	},
+	{
+		"id": 18,
+		"title": "Database Indexing",
+		"channelName": "@arjay_the_dev",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/TGGDEqzDUdg",
+		"category": "Backend",
+		"tag": ["indexing", "SQL", "database optimization"]
+	},
+	{
+		"id": 19,
+		"title": "\ud83e\udd14 What's the difference between MERGING and REBASING in Git? #git #programming #shorts",
+		"channelName": "@GitKraken",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/nzv0sbfprJo",
+		"category": "Engineering Practices",
+		"tag": ["version control", "Git", "merge vs rebase"]
+	},
+	{
+		"id": 20,
+		"title": "Useful Render Pattern in React",
+		"channelName": "@cosdensolutions",
+		"is_short": true,
+		"url": "https://www.youtube.com/shorts/vAK1H2UaaIQ",
+		"category": "Frontend",
+		"tag": ["render patterns", "React", "component design"]
+	}
+]

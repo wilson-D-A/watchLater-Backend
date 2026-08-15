@@ -72,8 +72,8 @@ Add the category to a "category" key. Add a "tag" key where the value is an arra
 
 
 def main():
-    json_path = Path(__file__).parent.parent / "response.json"
-    output_path = Path(__file__).parent.parent / "claude.json"
+    json_path = Path(__file__).parent.parent / "liked_playlist.json"
+    output_path = Path(__file__).parent.parent / "liked_playlist_claude.json"
 
     with open(json_path, "r") as file:
         json_content = json.load(file)

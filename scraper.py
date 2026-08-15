@@ -1,14 +1,18 @@
 import json
 import os
-
-from playwright.sync_api import sync_playwright, TimeoutError
+from playwright.sync_api import TimeoutError, sync_playwright
+from playwright.sync_api import TimeoutError
 import math
 import requests
 from io import BytesIO
 from PIL import Image
+from pprint import pprint
 
 
 def get_aspect_ratio(url):
+    if url is None:
+        return None
+
     response = requests.get(url)
     response.raise_for_status()
 
@@ -55,43 +59,53 @@ def scrape_liked_videos(playwright):
 
     page = launch_browser(playwright, "https://www.youtube.com/playlist?list=LL")
 
-    elements = page.locator('h3[role="presentation"]').locator("a").all()
+    elements = page.locator("#content").all()
 
     results = []
-    for element in elements:
-        link = f"https://www.youtube.com{element.get_attribute('href')}"
-        if resuming:
-            if link == last_url:
-                resuming = False  # found where we left off
-            continue  # skip until we pass the last processed item
+    try:
+        for element in elements:
+            presentation = element.locator("h3[role='presentation']")
+            link = f"https://www.youtube.com{presentation.locator('a').first.get_attribute('href')}"
+            if resuming:
+                if link == last_url:
+                    resuming = False  # found where we left off
+                continue  # skip until we pass the last processed item
+            title = presentation.locator("a").first.get_attribute("title")
+            element.scroll_into_view_if_needed()
+            element.locator("img").first.wait_for(state="attached", timeout=10000)
+            thumbnail = (
+                element.locator(".ytThumbnailViewModelImage")
+                .locator("img")
+                .first.get_attribute("src")
+            )
 
-        title = element.get_attribute("title")
-        # thumbnail = (
-        #     element.locator("yt-thumbnail-view-model")
-        #     .locator("img")
-        #     .get_attribute("src")
-        # )
-        # extract aspect ratio from thumbnail url to determine if it's a short
-        # aspect_ratio = thumbnail.split("/")[4] if thumbnail else ""
+            aspect_ratio = get_aspect_ratio(thumbnail)
+            is_short = aspect_ratio in {"405:608", "2:3"}
+            page.goto(link)
+            name = page.wait_for_selector(
+                "a.ytAttributedStringLink.ytAttributedStringLinkCallToActionColor"
+            ).inner_text()
+            page.go_back()
 
-        # is_short = "2∶3" in aspect_ratio
-        page.goto(link)
-        name = page.wait_for_selector(
-            "a.ytAttributedStringLink.ytAttributedStringLinkCallToActionColor"
-        ).inner_text()
-        page.go_back()
-
-        results.append(
-            {
+            data = {
                 "url": link,
                 "name": name,
                 "title": title,
-                "thumbnail": None,
-                "is_short": False,
+                "thumbnail": thumbnail,
+                "is_short": is_short,
             }
-        )
-        save_checkpoint(link)
+            results.append(data)
+            pprint(data)
+    except Exception as e:
+        print("ERROR:", e)
 
+        with open("liked_playlist.json", "a") as f:
+            json.dump(results, f, indent=2)
+
+    with open("liked_playlist.json", "a") as f:
+        json.dump(results, f, indent=2)
+
+    save_checkpoint(link)
     return results
 
 
@@ -131,7 +145,3 @@ def scrape_watchlater(playwright):
 with sync_playwright() as playwright:
 
     data = scrape_liked_videos(playwright)
-    print(data)
-
-    with open("liked_playlist.json", "w") as f:
-        json.dump(data, f, indent=2)

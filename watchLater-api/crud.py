@@ -2,10 +2,31 @@ from models import Video, Tag
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
-# json_path = Path("api") / "watchlater_grouped.json"
+# json_path = Path() / "liked_playlist.json"
 
 # with open(json_path, "r") as f:
 #     data = json.loads(f.read())
+
+import re
+
+
+def get_youtube_id(url: str) -> str | None:
+    match = re.search(r"(?:youtube\.com/watch\?v=|youtu\.be/)([a-zA-Z0-9_-]{11})", url)
+    return match.group(1) if match else None
+
+
+def add_thumbnail_to_video(video: Video):
+    # query all videos in the database
+    # for each video, if the video is a short, set the thumbnail to the thumbnail in the data, else set it to the youtube thumbnail
+    if video.is_short:
+        data_video = next((item for item in data if item["url"] == video.url), None)
+        if data_video and "thumbnail" in data_video:
+            video.thumbnail = data_video["thumbnail"]
+    else:
+        video.thumbnail = (
+            f"https://img.youtube.com/vi/{get_youtube_id(video.url)}/hqdefault.jpg"
+        )
+    return f"Thumbnail for video {video.id} set to {video.thumbnail}"
 
 
 def create_video(session: Session, data: list[dict]):
@@ -15,9 +36,10 @@ def create_video(session: Session, data: list[dict]):
         video = Video(
             title=video_data.get("title"),
             channelName=video_data.get("channelName"),
-            videoLength=video_data.get("videoLength"),
+            videoLength=video_data.get("videoLength", None),
             url=video_data.get("url"),
             category=video_data.get("category"),
+            is_short=video_data.get("is_short", False),
         )
         session.add(video)
 

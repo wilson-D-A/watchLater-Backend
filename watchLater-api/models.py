@@ -12,8 +12,10 @@ class Video(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     title: Mapped[str]
     channelName: Mapped[str]
-    videoLength: Mapped[str]
+    videoLength: Mapped[str | None] = mapped_column(nullable=True)
     url: Mapped[str]
+    thumbnail: Mapped[str | None] = mapped_column(nullable=True)
+    is_short: Mapped[bool | None] = mapped_column(nullable=True)
     category: Mapped[str]
     tags: Mapped[List["Tag"]] = relationship(
         back_populates="video", order_by="Tag.id", cascade="all, delete-orphan"
@@ -26,8 +28,8 @@ class Video(Base):
 class Tag(Base):
     __tablename__ = "tag"
     id: Mapped[int] = mapped_column(primary_key=True)
-    name: Mapped[str]
-    type: Mapped[str] = mapped_column(default=None, nullable=True)
+    name: Mapped[str | None] = mapped_column(default=None, nullable=True)
+    type: Mapped[str | None] = mapped_column(default=None, nullable=True)
     video_id: Mapped[int] = mapped_column(ForeignKey("video.id"))
     video: Mapped["Video"] = relationship(back_populates="tags")
 

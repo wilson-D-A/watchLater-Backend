@@ -1,502 +1,842 @@
 [
 	{
 		"url": "https://www.youtube.com/shorts/6PtHyHI6RoA",
-		"channelName": "@KodeKloud",
-		"title": "Postgres Interview Question!"
+		"name": "@KodeKloud",
+		"title": "Postgres Interview Question!",
+		"thumbnail": "https://i.ytimg.com/vi/6PtHyHI6RoA/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA50CoVn2r9r5PcSHK04tX4HokU1w&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/9qkafcFWoFc",
-		"channelName": "@arjay_the_dev",
-		"title": "System Design Interview Guide #coding #programming"
+		"name": "@arjay_the_dev",
+		"title": "System Design Interview Guide #coding #programming",
+		"thumbnail": "https://i.ytimg.com/vi/9qkafcFWoFc/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLC3oTT26rBbnaBdQWJPIh6S8bC8Kw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/biDEGt6XWc4",
-		"channelName": "@KodeKloud",
-		"title": "Containers vs Virtual Machines Explained\ud83d\udcbb"
+		"name": "@KodeKloud",
+		"title": "Containers vs Virtual Machines Explained\ud83d\udcbb",
+		"thumbnail": "https://i.ytimg.com/vi/biDEGt6XWc4/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDf3OKvbf-6ODv9S58hzhfSbwAAUQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/3sM_XmXZnDI",
-		"channelName": "@KodeKloud",
-		"title": "AI Security: Preventing Data Leaks in RAG \ud83d\udd13"
+		"name": "@KodeKloud",
+		"title": "AI Security: Preventing Data Leaks in RAG \ud83d\udd13",
+		"thumbnail": "https://i.ytimg.com/vi/3sM_XmXZnDI/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAdhVK2Yn_7TJnD0PNeQ6Ug78OCPg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/JnFh2NoAM4s",
-		"channelName": "@WebDevSimplified",
-		"title": "Stop Nesting Your Code So Much"
+		"name": "@WebDevSimplified",
+		"title": "Stop Nesting Your Code So Much",
+		"thumbnail": "https://i.ytimg.com/vi/JnFh2NoAM4s/oar2.jpg?sqp=-oaymwErCJYDEOEESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBVIFyiJVerAe19w5aNpkbsUG2LRw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/teEbQGhgzz4",
-		"channelName": "@thedigitalfolks",
-		"title": "Von Neumann Vs Harvard Architecture | Computer Architecture #engineering #computerscience"
+		"name": "@thedigitalfolks",
+		"title": "Von Neumann Vs Harvard Architecture | Computer Architecture #engineering #computerscience",
+		"thumbnail": "https://i.ytimg.com/vi/teEbQGhgzz4/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDeChwd1sWjsoXHqOu5u2aWnTYThA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/73TrLfcwTTU",
-		"channelName": "@arjay_the_dev",
-		"title": "How to modify your prod database"
+		"name": "@arjay_the_dev",
+		"title": "How to modify your prod database",
+		"thumbnail": "https://i.ytimg.com/vi/73TrLfcwTTU/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA4mCTJd334vU9akgCFkyipL7vzCQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/LjCVenIae7g",
-		"channelName": "@hello_interview",
-		"title": "What interviewers actually expect at mid-level vs senior vs staff engineer"
+		"name": "@hello_interview",
+		"title": "What interviewers actually expect at mid-level vs senior vs staff engineer",
+		"thumbnail": "https://i.ytimg.com/vi/LjCVenIae7g/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBUBHteb6dVL-uDKtEDJVIOw1G7ww&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/TjthoZ98Fik",
-		"channelName": "@pixelgridui",
-		"title": "3 Concepts That Cover 90% of JS #Shorts #webdev #programming"
+		"name": "@pixelgridui",
+		"title": "3 Concepts That Cover 90% of JS #Shorts #webdev #programming",
+		"thumbnail": "https://i.ytimg.com/vi/TjthoZ98Fik/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCzCNf7bR12Oz02qRlkpjtoxVpdUA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/LB4O5bTqna4",
-		"channelName": "@TechPrepYT",
-		"title": "Long Polling v SSE v WebSockets v QUIC #programming #coding #technicalinterview"
+		"name": "@TechPrepYT",
+		"title": "Long Polling v SSE v WebSockets v QUIC #programming #coding #technicalinterview",
+		"thumbnail": "https://i.ytimg.com/vi/LB4O5bTqna4/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCtRubnfSJKpduFtH7DoUmFDmzIkA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/f7KgDNZU3-Y",
-		"channelName": "@ByteByteGo",
-		"title": "gRPC, WebSocket and WebHook!"
+		"name": "@ByteByteGo",
+		"title": "gRPC, WebSocket and WebHook!",
+		"thumbnail": "https://i.ytimg.com/vi/f7KgDNZU3-Y/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLC0mIfNXV_d3p2Rz69I8fscxaYziA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/7OsxDwhaiWM",
-		"channelName": "@Codexium-dev",
-		"title": "3 Ways to Make Your Website 3\u00d7 Faster \u26a1 #shorts"
+		"name": "@Codexium-dev",
+		"title": "3 Ways to Make Your Website 3\u00d7 Faster \u26a1 #shorts",
+		"thumbnail": "https://i.ytimg.com/vi/7OsxDwhaiWM/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDMSAKIrjEZyei5QJukPvqxSyq8wQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/jg-Dy0GNPvQ",
-		"channelName": "@hello_interview",
-		"title": "Separate DB per service? Explained in 60 seconds. #systemdesign #softwaredesign #interviewquestions"
+		"name": "@hello_interview",
+		"title": "Separate DB per service? Explained in 60 seconds. #systemdesign #softwaredesign #interviewquestions",
+		"thumbnail": "https://i.ytimg.com/vi/jg-Dy0GNPvQ/oar2.jpg?sqp=-oaymwErCJwDEOoESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDXxofyk2QZg1mi-9PiSiIVG6PQSw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/4GwXyVIbKfY",
-		"channelName": "@KodeKloud",
-		"title": "Stateful vs. Stateless Architecture!"
+		"name": "@KodeKloud",
+		"title": "Stateful vs. Stateless Architecture!",
+		"thumbnail": "https://i.ytimg.com/vi/4GwXyVIbKfY/hq720.jpg?sqp=-oaymwEoCJUDENAFSFryq4qpAxoIARUAAIhC0AEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLArpi9WcqItfu6YprNtlmVZFM5QsA",
+		"is_short": false
 	},
 	{
-		"url": "https://www.youtube.com/shorts/AbrKdjHxTY4",
-		"channelName": "@arjay_the_dev",
-		"title": "System Design: Scaling Reads"
+		"url": "https://www.youtube.com/shorts/6PtHyHI6RoA",
+		"name": "@KodeKloud",
+		"title": "Postgres Interview Question!",
+		"thumbnail": "https://i.ytimg.com/vi/6PtHyHI6RoA/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA50CoVn2r9r5PcSHK04tX4HokU1w&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/9qkafcFWoFc",
+		"name": "@arjay_the_dev",
+		"title": "System Design Interview Guide #coding #programming",
+		"thumbnail": "https://i.ytimg.com/vi/9qkafcFWoFc/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLC3oTT26rBbnaBdQWJPIh6S8bC8Kw&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/biDEGt6XWc4",
+		"name": "@KodeKloud",
+		"title": "Containers vs Virtual Machines Explained\ud83d\udcbb",
+		"thumbnail": "https://i.ytimg.com/vi/biDEGt6XWc4/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDf3OKvbf-6ODv9S58hzhfSbwAAUQ&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/3sM_XmXZnDI",
+		"name": "@KodeKloud",
+		"title": "AI Security: Preventing Data Leaks in RAG \ud83d\udd13",
+		"thumbnail": "https://i.ytimg.com/vi/3sM_XmXZnDI/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAdhVK2Yn_7TJnD0PNeQ6Ug78OCPg&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/JnFh2NoAM4s",
+		"name": "@WebDevSimplified",
+		"title": "Stop Nesting Your Code So Much",
+		"thumbnail": "https://i.ytimg.com/vi/JnFh2NoAM4s/oar2.jpg?sqp=-oaymwErCJYDEOEESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBVIFyiJVerAe19w5aNpkbsUG2LRw&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/teEbQGhgzz4",
+		"name": "@thedigitalfolks",
+		"title": "Von Neumann Vs Harvard Architecture | Computer Architecture #engineering #computerscience",
+		"thumbnail": "https://i.ytimg.com/vi/teEbQGhgzz4/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDeChwd1sWjsoXHqOu5u2aWnTYThA&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/73TrLfcwTTU",
+		"name": "@arjay_the_dev",
+		"title": "How to modify your prod database",
+		"thumbnail": "https://i.ytimg.com/vi/73TrLfcwTTU/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA4mCTJd334vU9akgCFkyipL7vzCQ&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/LjCVenIae7g",
+		"name": "@hello_interview",
+		"title": "What interviewers actually expect at mid-level vs senior vs staff engineer",
+		"thumbnail": "https://i.ytimg.com/vi/LjCVenIae7g/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBUBHteb6dVL-uDKtEDJVIOw1G7ww&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/TjthoZ98Fik",
+		"name": "@pixelgridui",
+		"title": "3 Concepts That Cover 90% of JS #Shorts #webdev #programming",
+		"thumbnail": "https://i.ytimg.com/vi/TjthoZ98Fik/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCzCNf7bR12Oz02qRlkpjtoxVpdUA&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/LB4O5bTqna4",
+		"name": "@TechPrepYT",
+		"title": "Long Polling v SSE v WebSockets v QUIC #programming #coding #technicalinterview",
+		"thumbnail": "https://i.ytimg.com/vi/LB4O5bTqna4/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCtRubnfSJKpduFtH7DoUmFDmzIkA&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/f7KgDNZU3-Y",
+		"name": "@ByteByteGo",
+		"title": "gRPC, WebSocket and WebHook!",
+		"thumbnail": "https://i.ytimg.com/vi/f7KgDNZU3-Y/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLC0mIfNXV_d3p2Rz69I8fscxaYziA&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/7OsxDwhaiWM",
+		"name": "@Codexium-dev",
+		"title": "3 Ways to Make Your Website 3\u00d7 Faster \u26a1 #shorts",
+		"thumbnail": "https://i.ytimg.com/vi/7OsxDwhaiWM/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDMSAKIrjEZyei5QJukPvqxSyq8wQ&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/jg-Dy0GNPvQ",
+		"name": "@hello_interview",
+		"title": "Separate DB per service? Explained in 60 seconds. #systemdesign #softwaredesign #interviewquestions",
+		"thumbnail": "https://i.ytimg.com/vi/jg-Dy0GNPvQ/oar2.jpg?sqp=-oaymwErCJwDEOoESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDXxofyk2QZg1mi-9PiSiIVG6PQSw&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/4GwXyVIbKfY",
+		"name": "@KodeKloud",
+		"title": "Stateful vs. Stateless Architecture!",
+		"thumbnail": "https://i.ytimg.com/vi/4GwXyVIbKfY/hq720.jpg?sqp=-oaymwEoCJUDENAFSFryq4qpAxoIARUAAIhC0AEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLArpi9WcqItfu6YprNtlmVZFM5QsA",
+		"is_short": false
 	},
 	{
 		"url": "https://www.youtube.com/shorts/C16h-FqTrhs",
-		"channelName": "@SimpleSystemDesign",
-		"title": "Database Sharding vs Database Partition Explained in 1min! #systemdesign #systemdesigninterview"
+		"name": "@SimpleSystemDesign",
+		"title": "Database Sharding vs Database Partition Explained in 1min! #systemdesign #systemdesigninterview",
+		"thumbnail": "https://i.ytimg.com/vi/C16h-FqTrhs/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCzbl6itEK1lHGvcIkaXD2HTLqmmA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/0NU9aCTLopo",
-		"channelName": "@cosdensolutions",
-		"title": "How to Use React Query Correctly"
+		"name": "@cosdensolutions",
+		"title": "How to Use React Query Correctly",
+		"thumbnail": "https://i.ytimg.com/vi/0NU9aCTLopo/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDBj_hAs4wdTOvNzI2aOsiLwr-1Ig&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/rPwT0yXdFXs",
-		"channelName": "@arjay_the_dev",
-		"title": "AI Coding Interviews"
+		"name": "@arjay_the_dev",
+		"title": "AI Coding Interviews",
+		"thumbnail": "https://i.ytimg.com/vi/rPwT0yXdFXs/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDjNsGHw_ePiGxIfnkIDnp8lEJ1Bw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/wNDyh5jm9kA",
-		"channelName": "@Streetsblog-NYC",
-		"title": "NYC's subway map could look like THIS #nyc #subway #transit #mta #train #urbanism"
+		"name": "@Streetsblog-NYC",
+		"title": "NYC's subway map could look like THIS #nyc #subway #transit #mta #train #urbanism",
+		"thumbnail": "https://i.ytimg.com/vi/wNDyh5jm9kA/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDqVr0j1vnU2lznV4Tj5zOfI1BjWQ&usqp=CCk",
+		"is_short": true
 	},
 	{
-		"url": "https://www.youtube.com/shorts/K5AdUe5Eu-Y",
-		"channelName": "@hello_interview",
-		"title": "Scaling Writes: Part 3 of 4 \u2014 Queues & Load Shedding"
+		"url": "https://www.youtube.com/shorts/C16h-FqTrhs",
+		"name": "@SimpleSystemDesign",
+		"title": "Database Sharding vs Database Partition Explained in 1min! #systemdesign #systemdesigninterview",
+		"thumbnail": "https://i.ytimg.com/vi/C16h-FqTrhs/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCzbl6itEK1lHGvcIkaXD2HTLqmmA&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/0NU9aCTLopo",
+		"name": "@cosdensolutions",
+		"title": "How to Use React Query Correctly",
+		"thumbnail": "https://i.ytimg.com/vi/0NU9aCTLopo/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDBj_hAs4wdTOvNzI2aOsiLwr-1Ig&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/rPwT0yXdFXs",
+		"name": "@arjay_the_dev",
+		"title": "AI Coding Interviews",
+		"thumbnail": "https://i.ytimg.com/vi/rPwT0yXdFXs/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDjNsGHw_ePiGxIfnkIDnp8lEJ1Bw&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/wNDyh5jm9kA",
+		"name": "@Streetsblog-NYC",
+		"title": "NYC's subway map could look like THIS #nyc #subway #transit #mta #train #urbanism",
+		"thumbnail": "https://i.ytimg.com/vi/wNDyh5jm9kA/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDqVr0j1vnU2lznV4Tj5zOfI1BjWQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/fe57ccAkZtY",
-		"channelName": "@KodeKloud",
-		"title": "Why Every Backend Uses Kafka"
+		"name": "@KodeKloud",
+		"title": "Why Every Backend Uses Kafka",
+		"thumbnail": "https://i.ytimg.com/vi/fe57ccAkZtY/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBbhMpdS8wcCXTkJkQngETkXdEalQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/zKa4FXts6Go",
-		"channelName": "@KodeKloud",
-		"title": "Tricky Database Interview Question\ud83e\udd2f"
+		"name": "@KodeKloud",
+		"title": "Tricky Database Interview Question\ud83e\udd2f",
+		"thumbnail": "https://i.ytimg.com/vi/zKa4FXts6Go/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA1822nVKFqDWaLd0gsZGsvNFmBLg&usqp=CCk",
+		"is_short": true
 	},
 	{
-		"url": "https://www.youtube.com/shorts/KDLfKu1Pgag",
-		"channelName": "@hello_interview",
-		"title": "How to Design ChatGPT"
+		"url": "https://www.youtube.com/shorts/fe57ccAkZtY",
+		"name": "@KodeKloud",
+		"title": "Why Every Backend Uses Kafka",
+		"thumbnail": "https://i.ytimg.com/vi/fe57ccAkZtY/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBbhMpdS8wcCXTkJkQngETkXdEalQ&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/zKa4FXts6Go",
+		"name": "@KodeKloud",
+		"title": "Tricky Database Interview Question\ud83e\udd2f",
+		"thumbnail": "https://i.ytimg.com/vi/zKa4FXts6Go/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA1822nVKFqDWaLd0gsZGsvNFmBLg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/AIuZExZFHNU",
-		"channelName": "@KodeKloud",
-		"title": "Consistent Hashing Explained (System Design Basics)"
+		"name": "@KodeKloud",
+		"title": "Consistent Hashing Explained (System Design Basics)",
+		"thumbnail": "https://i.ytimg.com/vi/AIuZExZFHNU/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCOw_gQQ8-5wEyrmpu0ED98y8oiqw&usqp=CCk",
+		"is_short": true
 	},
 	{
-		"url": "https://www.youtube.com/shorts/VN7hwYypTRw",
-		"channelName": "@arjay_the_dev",
-		"title": "System Design Diagramming with AI"
+		"url": "https://www.youtube.com/shorts/AIuZExZFHNU",
+		"name": "@KodeKloud",
+		"title": "Consistent Hashing Explained (System Design Basics)",
+		"thumbnail": "https://i.ytimg.com/vi/AIuZExZFHNU/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCOw_gQQ8-5wEyrmpu0ED98y8oiqw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/oz1FrycaQM4",
-		"channelName": "@KodeKloud",
-		"title": "How Caching Saves Your App from Crashing\ud83d\udea8"
+		"name": "@KodeKloud",
+		"title": "How Caching Saves Your App from Crashing\ud83d\udea8",
+		"thumbnail": "https://i.ytimg.com/vi/oz1FrycaQM4/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDSyU45o6g3xWBJh5LiX0vNS_t5bw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/38IqoJd7j5E",
-		"channelName": "@hello_interview",
-		"title": "4 ways to push real-time updates to clients. Most engineers only know 1."
+		"name": "@hello_interview",
+		"title": "4 ways to push real-time updates to clients. Most engineers only know 1.",
+		"thumbnail": "https://i.ytimg.com/vi/38IqoJd7j5E/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAsTYG8RUh9nkhqGlwUUCE4qvH1tw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/4GR2Blt-tdE",
-		"channelName": "@pixelgridui",
-		"title": "Why pro designs feel 'expensive' \u2014 it's just spacing"
+		"name": "@pixelgridui",
+		"title": "Why pro designs feel 'expensive' \u2014 it's just spacing",
+		"thumbnail": "https://i.ytimg.com/vi/4GR2Blt-tdE/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDMrhWnfs5vFska_newQiOIti27wg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/JpD-IKdItRw",
-		"channelName": "@KodeKloud",
-		"title": "OS Internals: Processes vs. Threads Memory Layout!"
+		"name": "@KodeKloud",
+		"title": "OS Internals: Processes vs. Threads Memory Layout!",
+		"thumbnail": "https://i.ytimg.com/vi/JpD-IKdItRw/hq720.jpg?sqp=-oaymwEoCJUDENAFSFryq4qpAxoIARUAAIhC0AEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCc3hU38tp5wp9RSCekDiNqkj47_Q",
+		"is_short": false
 	},
 	{
-		"url": "https://www.youtube.com/shorts/A2y3EmVc8nU",
-		"channelName": "@hello_interview",
-		"title": "Scaling Writes: Part 2 of 4 \u2014 Sharding & Partitioning"
+		"url": "https://www.youtube.com/shorts/oz1FrycaQM4",
+		"name": "@KodeKloud",
+		"title": "How Caching Saves Your App from Crashing\ud83d\udea8",
+		"thumbnail": "https://i.ytimg.com/vi/oz1FrycaQM4/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDSyU45o6g3xWBJh5LiX0vNS_t5bw&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/38IqoJd7j5E",
+		"name": "@hello_interview",
+		"title": "4 ways to push real-time updates to clients. Most engineers only know 1.",
+		"thumbnail": "https://i.ytimg.com/vi/38IqoJd7j5E/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAsTYG8RUh9nkhqGlwUUCE4qvH1tw&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/4GR2Blt-tdE",
+		"name": "@pixelgridui",
+		"title": "Why pro designs feel 'expensive' \u2014 it's just spacing",
+		"thumbnail": "https://i.ytimg.com/vi/4GR2Blt-tdE/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDMrhWnfs5vFska_newQiOIti27wg&usqp=CCk",
+		"is_short": true
+	},
+	{
+		"url": "https://www.youtube.com/shorts/JpD-IKdItRw",
+		"name": "@KodeKloud",
+		"title": "OS Internals: Processes vs. Threads Memory Layout!",
+		"thumbnail": "https://i.ytimg.com/vi/JpD-IKdItRw/hq720.jpg?sqp=-oaymwEoCJUDENAFSFryq4qpAxoIARUAAIhC0AEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCc3hU38tp5wp9RSCekDiNqkj47_Q",
+		"is_short": false
 	},
 	{
 		"url": "https://www.youtube.com/shorts/DOya17e63Lk",
-		"channelName": "@pixelgridui",
-		"title": "Closures explained, Why your click counter never resets #shorts"
+		"name": "@pixelgridui",
+		"title": "Closures explained, Why your click counter never resets #shorts",
+		"thumbnail": null,
+		"is_short": false
 	},
 	{
 		"url": "https://www.youtube.com/shorts/3TN4otAxzZk",
-		"channelName": "@JeffNippard",
-		"title": "4 Amazing Chest Builders You\u2019re Missing Out On"
+		"name": "@JeffNippard",
+		"title": "4 Amazing Chest Builders You\u2019re Missing Out On",
+		"thumbnail": "https://i.ytimg.com/vi/3TN4otAxzZk/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCZ-xuHb7_aPBJOfQBwRkayN80wLg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/GddXpLm7ta0",
-		"channelName": "@KodeKloud",
-		"title": "Synchronous vs Asynchronous Requests Explained (System Design Basics)"
+		"name": "@KodeKloud",
+		"title": "Synchronous vs Asynchronous Requests Explained (System Design Basics)",
+		"thumbnail": "https://i.ytimg.com/vi/GddXpLm7ta0/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAEKP5drMZtMMvxCBEUn8F6LoYLRA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/DvcB0ZSDd0A",
-		"channelName": "@itsnextwork",
-		"title": "Software Engineer vs Product Engineer"
+		"name": "@itsnextwork",
+		"title": "Software Engineer vs Product Engineer",
+		"thumbnail": "https://i.ytimg.com/vi/DvcB0ZSDd0A/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDbMLP09WUMypVM5Jc70Kw7j1ucUQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/r5fooD_Fxkg",
-		"channelName": "@hello_interview",
-		"title": "Minimum Window Subsequence | DP | Hard"
+		"name": "@hello_interview",
+		"title": "Minimum Window Subsequence | DP | Hard",
+		"thumbnail": "https://i.ytimg.com/vi/r5fooD_Fxkg/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA_CXOfWNWKhAlYfVVfJVPjQ884Mw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/f-MpyJ-aPsY",
-		"channelName": "@KodeKloud",
-		"title": "Docker Interview: Rapid Fire Round (Can You Keep Up?)"
+		"name": "@KodeKloud",
+		"title": "Docker Interview: Rapid Fire Round (Can You Keep Up?)",
+		"thumbnail": "https://i.ytimg.com/vi/f-MpyJ-aPsY/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCMWrL7IOnV8wgQAxH8TUIRkKL0Zg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/WgbymXi7mK4",
-		"channelName": "@KodeKloud",
-		"title": "Docker Storage: Bind Mounts vs. channelNamed Volumes!"
+		"name": "@KodeKloud",
+		"title": "Docker Storage: Bind Mounts vs. Named Volumes!",
+		"thumbnail": "https://i.ytimg.com/vi/WgbymXi7mK4/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAvEVdoaB_nxEEXGcQUx1rm80yNSQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/zxfTArjbyto",
-		"channelName": "@CareerLandingGroup",
-		"title": "The Roadmap to Build a Production-Ready Full-Stack Web App in 5 Days with Minimal Resources"
+		"name": "@CareerLandingGroup",
+		"title": "The Roadmap to Build a Production-Ready Full-Stack Web App in 5 Days with Minimal Resources",
+		"thumbnail": "https://i.ytimg.com/vi/zxfTArjbyto/oar2.jpg?sqp=-oaymwEoCLsEENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLD0klZxnRyyvMEiLQHrDKl1FVii-w&usqp=CCk",
+		"is_short": false
 	},
 	{
 		"url": "https://www.youtube.com/shorts/vdx4-z5CoBk",
-		"channelName": "@KodeKloud",
-		"title": "Design Webhooks Processing System"
+		"name": "@KodeKloud",
+		"title": "Design Webhooks Processing System",
+		"thumbnail": "https://i.ytimg.com/vi/vdx4-z5CoBk/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLB04hLoxjW5aj20mCDre2K2p9znEg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/c5aB_QOnwN8",
-		"channelName": "@KodeKloud",
-		"title": "Docker Exit Code 137 Explained in 2 Minutes (Interview Question)"
+		"name": "@KodeKloud",
+		"title": "Docker Exit Code 137 Explained in 2 Minutes (Interview Question)",
+		"thumbnail": "https://i.ytimg.com/vi/c5aB_QOnwN8/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAnLTuucugvVicOy1Nex8NMDhIOcQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/RmC1m8Q7034",
-		"channelName": "@DrTraceyMarks",
-		"title": "Signs you\u2019re trauma-bonded and calling it love #shorts"
+		"name": "@DrTraceyMarks",
+		"title": "Signs you\u2019re trauma-bonded and calling it love #shorts",
+		"thumbnail": "https://i.ytimg.com/vi/RmC1m8Q7034/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCEHH9VD7Nt6F4R5qgDysmpmd1_AA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/DqmsWfdHw2c",
-		"channelName": "@softwarewithnick",
-		"title": "Free MIT courses \ud83e\udeea #code #coding #tech #learntocode #datascience"
+		"name": "@softwarewithnick",
+		"title": "Free MIT courses \ud83e\udeea #code #coding #tech #learntocode #datascience",
+		"thumbnail": "https://i.ytimg.com/vi/DqmsWfdHw2c/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDkOtbjJMIFJdrCw6R8yVEdpykgCw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/Q3f5jmIwN3Y",
-		"channelName": "@hello_interview",
-		"title": "REST vs GraphQL vs gRPC: Which API wins in system design interviews?"
+		"name": "@hello_interview",
+		"title": "REST vs GraphQL vs gRPC: Which API wins in system design interviews?",
+		"thumbnail": "https://i.ytimg.com/vi/Q3f5jmIwN3Y/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLADxjHAJICBFWf16MkrxWUT-V9rtQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/JOV_nLWAKrg",
-		"channelName": "@arjay_the_dev",
-		"title": "2026 Backend Engineer Roadmap"
+		"name": "@arjay_the_dev",
+		"title": "2026 Backend Engineer Roadmap",
+		"thumbnail": "https://i.ytimg.com/vi/JOV_nLWAKrg/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA7qCt2iVEaRt8G7vxWTpZ8EpEF2g&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/mh8geod4VRI",
-		"channelName": "@KodeKloud",
-		"title": "TCP vs UDP Explained with WhatsApp"
+		"name": "@KodeKloud",
+		"title": "TCP vs UDP Explained with WhatsApp",
+		"thumbnail": "https://i.ytimg.com/vi/mh8geod4VRI/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA2omoP0DuZ8_FgrE4XW0ZdOxfwSA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/5V4b2P28-70",
-		"channelName": "@KodeKloud",
-		"title": "Amazon Style Interview Question"
+		"name": "@KodeKloud",
+		"title": "Amazon Style Interview Question",
+		"thumbnail": "https://i.ytimg.com/vi/5V4b2P28-70/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBYzc4pbyiqueN82xjQShAe9M1CSA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/hMTOYedA818",
-		"channelName": "@hello_interview",
-		"title": "YouTube Upload"
+		"name": "@hello_interview",
+		"title": "YouTube Upload",
+		"thumbnail": "https://i.ytimg.com/vi/hMTOYedA818/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBMeqJDHzlqIBzOQxZaXjyPcKaMVw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/xMlsVPH_SWA",
-		"channelName": "@TechPrepYT",
-		"title": "Uber | System Design in 60 Seconds #systemdesigninterview #uber #ridesharing"
+		"name": "@TechPrepYT",
+		"title": "Uber | System Design in 60 Seconds #systemdesigninterview #uber #ridesharing",
+		"thumbnail": "https://i.ytimg.com/vi/xMlsVPH_SWA/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBB6QaG8JEtpv3L2S_1fdro-qqZ8w&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/l1LCSmBg9TU",
-		"channelName": "@BlockchainVolleyball",
-		"title": "Every time the Haikyuu theme played at the Olympics"
+		"name": "@BlockchainVolleyball",
+		"title": "Every time the Haikyuu theme played at the Olympics",
+		"thumbnail": "https://i.ytimg.com/vi/l1LCSmBg9TU/hq720_2.jpg?sqp=-oaymwEoCJACEOADSFryq4qpAxoIARUAAIhC0AEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCRRnvWkarugCPx4CYQV5qsQM2nFg",
+		"is_short": false
 	},
 	{
 		"url": "https://www.youtube.com/shorts/jD8nVDDlz8Y",
-		"channelName": "@sayeddev",
-		"title": "Database indexing \ud83e\udee1#coding #programming #software engineer"
+		"name": "@sayeddev",
+		"title": "Database indexing \ud83e\udee1#coding #programming #software engineer",
+		"thumbnail": "https://i.ytimg.com/vi/jD8nVDDlz8Y/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCMeE2-WIajlpkrgUqC3mTZfSDlBg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/uA2OCDlT-9A",
-		"channelName": "@GregHogg",
-		"title": "SQL vs NoSQL in System Design"
+		"name": "@GregHogg",
+		"title": "SQL vs NoSQL in System Design",
+		"thumbnail": "https://i.ytimg.com/vi/uA2OCDlT-9A/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAlLONDrk-mCBHixPwp8wkZ-1dZGQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/uMoHw6T4dN8",
-		"channelName": "@GregHogg",
-		"title": "Regression Testing - System Design"
+		"name": "@GregHogg",
+		"title": "Regression Testing - System Design",
+		"thumbnail": "https://i.ytimg.com/vi/uMoHw6T4dN8/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAzQnHQ0sSf2AvpwuqgKg6DSOoziw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/mXA-r0yiSKs",
-		"channelName": "@arjay_the_dev",
-		"title": "System Design: Google Drive"
+		"name": "@arjay_the_dev",
+		"title": "System Design: Google Drive",
+		"thumbnail": "https://i.ytimg.com/vi/mXA-r0yiSKs/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDmtmIBjYkxg907bYT7giwbXIZTiw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/B7VxEQy9Occ",
-		"channelName": "@ProxySeller",
-		"title": "How to Scrape YouTube Data Using Python"
+		"name": "@ProxySeller",
+		"title": "How to Scrape YouTube Data Using Python",
+		"thumbnail": "https://i.ytimg.com/vi/B7VxEQy9Occ/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBMGleAOtTWTZEcJ53whmQ0CiTPAA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/_GziHDdJY10",
-		"channelName": "@JeffNippard",
-		"title": "Don\u2019t Skip These 3 Biceps Exercises"
+		"name": "@JeffNippard",
+		"title": "Don\u2019t Skip These 3 Biceps Exercises",
+		"thumbnail": "https://i.ytimg.com/vi/_GziHDdJY10/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBLAAI5V9soPK5pNSewFt-XCd9Gkw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/dW-meGlxS0c",
-		"channelName": "@hello_interview",
-		"title": "Why your upload server should never touch the file bytes"
+		"name": "@hello_interview",
+		"title": "Why your upload server should never touch the file bytes",
+		"thumbnail": "https://i.ytimg.com/vi/dW-meGlxS0c/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAh6q1htF05_P3va0LeYUre1mJqzQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/NSYW3CY3VvM",
-		"channelName": "@HowtoWebDev",
-		"title": "2 Ways to create a responsive grid with tailwind  #css #coding #programming #web #code #tailwindcss"
+		"name": "@HowtoWebDev",
+		"title": "2 Ways to create a responsive grid with tailwind  #css #coding #programming #web #code #tailwindcss",
+		"thumbnail": null,
+		"is_short": false
 	},
 	{
 		"url": "https://www.youtube.com/shorts/pNUwNxB6Yn4",
-		"channelName": "@code",
-		"title": "Let's write FizzBuzz"
+		"name": "@code",
+		"title": "Let's write FizzBuzz",
+		"thumbnail": "https://i.ytimg.com/vi/pNUwNxB6Yn4/hq2.jpg?sqp=-oaymwEoCMoBEOgCSFryq4qpAxoIARUAAIhC0AEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLD0MlBSJVmqwS0Mw-SZuSvmGyaX8A",
+		"is_short": false
 	},
 	{
 		"url": "https://www.youtube.com/shorts/1IMoFXKd-ko",
-		"channelName": "@softwarewithnick",
-		"title": "Free Python for Data Science Resource \ud83d\ude0e #code #coding #tech #learntocode #datascience"
+		"name": "@softwarewithnick",
+		"title": "Free Python for Data Science Resource \ud83d\ude0e #code #coding #tech #learntocode #datascience",
+		"thumbnail": "https://i.ytimg.com/vi/1IMoFXKd-ko/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDcwfGk84c4C3W7oRxI0HQoIy_HHA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/5wiJvT7EY3o",
-		"channelName": "@hello_interview",
-		"title": "Distributed transactions"
+		"name": "@hello_interview",
+		"title": "Distributed transactions",
+		"thumbnail": "https://i.ytimg.com/vi/5wiJvT7EY3o/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCWbVcvAhGiILzUTaphXBWO1p_ZTA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/H7vDsPGaKZM",
-		"channelName": "@arjay_the_dev",
-		"title": "Webscraping: Intern vs Jr vs Senior."
+		"name": "@arjay_the_dev",
+		"title": "Webscraping: Intern vs Jr vs Senior.",
+		"thumbnail": "https://i.ytimg.com/vi/H7vDsPGaKZM/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA0IvBFhuk5IsTNcb4ycFrO9Fnq3g&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/8qx9LWQLGoE",
-		"channelName": "@KodeKloud",
-		"title": "Container Interview Question"
+		"name": "@KodeKloud",
+		"title": "Container Interview Question",
+		"thumbnail": "https://i.ytimg.com/vi/8qx9LWQLGoE/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBsX4I1Ptp905x6QlizynKkw02ntw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/d3Q7czh-tqo",
-		"channelName": "@sdw-online",
-		"title": "Use Python to create a simple ETL data pipeline to extract, transform and load weather data from a R"
+		"name": "@sdw-online",
+		"title": "Use Python to create a simple ETL data pipeline to extract, transform and load weather data from a R",
+		"thumbnail": "https://i.ytimg.com/vi/d3Q7czh-tqo/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLB5NMbv-Cr6xvIKuhYl_jwm541Fsg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/_c1WOihUklQ",
-		"channelName": "@arjay_the_dev",
-		"title": "My Design to Deployment Process"
+		"name": "@arjay_the_dev",
+		"title": "My Design to Deployment Process",
+		"thumbnail": "https://i.ytimg.com/vi/_c1WOihUklQ/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBKMwFSR1ptGaQKntROphIZpuS5vg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/-UHnJ2NYSRU",
-		"channelName": "@HealthyGamerGG",
-		"title": "How To Beat ADHD"
+		"name": "@HealthyGamerGG",
+		"title": "How To Beat ADHD",
+		"thumbnail": "https://i.ytimg.com/vi/-UHnJ2NYSRU/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBeGw25qvXzs3ZWcMumQLsMfA79yQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/JcwH9RddzyE",
-		"channelName": "@WebDevSimplified",
-		"title": "3 Must Use TSConfig Features"
+		"name": "@WebDevSimplified",
+		"title": "3 Must Use TSConfig Features",
+		"thumbnail": "https://i.ytimg.com/vi/JcwH9RddzyE/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDNNwpWKWDhzGvExW_zaLykXmz9Iw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/Eebv8fuAIwk",
-		"channelName": "@softwarewithnick",
-		"title": "Software Engineer Learning Path \ud83d\ude0e #code #coding #tech #learntocode #softwareengineer"
+		"name": "@softwarewithnick",
+		"title": "Software Engineer Learning Path \ud83d\ude0e #code #coding #tech #learntocode #softwareengineer",
+		"thumbnail": "https://i.ytimg.com/vi/Eebv8fuAIwk/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAlnf51yX1g8-Ie3JM7JkDO-h487g&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/6pPToWDAgWY",
-		"channelName": "@moreperfectunion",
-		"title": "NYC multimillionaire\u2019s shocking plea"
+		"name": "@moreperfectunion",
+		"title": "NYC multimillionaire\u2019s shocking plea",
+		"thumbnail": "https://i.ytimg.com/vi/6pPToWDAgWY/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCzcFxkngpH8LiVnZlpU8A0QR_Xgg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/Gw9Kux6UcmI",
-		"channelName": "@softwarewithnick",
-		"title": "Massive Coding GitHub Repo \ud83d\ude0e #code #coding #tech #learntocode #datascience #softwaredevelopment"
+		"name": "@softwarewithnick",
+		"title": "Massive Coding GitHub Repo \ud83d\ude0e #code #coding #tech #learntocode #datascience #softwaredevelopment",
+		"thumbnail": "https://i.ytimg.com/vi/Gw9Kux6UcmI/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBe5oV9hHjY_gpp3l28O_xse8S54A&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/9iVloe8Xa2I",
-		"channelName": "@DrTraceyMarks",
-		"title": "You\u2019re not cold. You learned to shut down to survive. #shorts"
+		"name": "@DrTraceyMarks",
+		"title": "You\u2019re not cold. You learned to shut down to survive. #shorts",
+		"thumbnail": "https://i.ytimg.com/vi/9iVloe8Xa2I/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAGl_pK6GaEOGNmI84gy7Jf2Pxq2g&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/FcAufUpUT3U",
-		"channelName": "@arjay_the_dev",
-		"title": "VPS vs Managed"
+		"name": "@arjay_the_dev",
+		"title": "VPS vs Managed",
+		"thumbnail": "https://i.ytimg.com/vi/FcAufUpUT3U/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBLsketL66efXkjFH-pYVW_erHqCg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/338NIknyedw",
-		"channelName": "@hello_interview",
-		"title": "Top 3 database Indexes every engineer should know"
+		"name": "@hello_interview",
+		"title": "Top 3 database Indexes every engineer should know",
+		"thumbnail": "https://i.ytimg.com/vi/338NIknyedw/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBy7tav6vjh0zPbnkj1o6IbunGSmw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/LCIvL5TXIic",
-		"channelName": "@arjay_the_dev",
-		"title": "Building an AI Agent in 30s"
+		"name": "@arjay_the_dev",
+		"title": "Building an AI Agent in 30s",
+		"thumbnail": "https://i.ytimg.com/vi/LCIvL5TXIic/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDy6250bXnQkQJoHc-JtUdoSZ_uOA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/x_wf_eIT-jo",
-		"channelName": "@softwarewithnick",
-		"title": "Learn to manipulate data \ud83d\ude0e #code #coding #tech #learntocode #datascience"
+		"name": "@softwarewithnick",
+		"title": "Learn to manipulate data \ud83d\ude0e #code #coding #tech #learntocode #datascience",
+		"thumbnail": "https://i.ytimg.com/vi/x_wf_eIT-jo/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBOIbhkwigLHxuudUsQe32BH1xBuA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/ENdig1qbMJo",
-		"channelName": "@DrTraceyMarks",
-		"title": "You\u2019re not a pessimist. You have cognitive distortions. #shorts"
+		"name": "@DrTraceyMarks",
+		"title": "You\u2019re not a pessimist. You have cognitive distortions. #shorts",
+		"thumbnail": "https://i.ytimg.com/vi/ENdig1qbMJo/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBDeqWF-A6yzkH-r0SZH4EWLDMbjQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/Hd3M8ZCkDy4",
-		"channelName": "@AIMNdev",
-		"title": "3 GitHub Repos That Are Better Than A CS Degree"
+		"name": "@AIMNdev",
+		"title": "3 GitHub Repos That Are Better Than A CS Degree",
+		"thumbnail": "https://i.ytimg.com/vi/Hd3M8ZCkDy4/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBFa34_3gF7hJbHS9_X7dTJAOft9w&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/Z9x2Ygf490I",
-		"channelName": "@bootdotdev",
-		"title": "drwxrwxrwx isn't gibberish..."
+		"name": "@bootdotdev",
+		"title": "drwxrwxrwx isn't gibberish...",
+		"thumbnail": "https://i.ytimg.com/vi/Z9x2Ygf490I/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDjB72etNEOylWEgRy_5S4926y8Cw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/ejWvEbNkL6Y",
-		"channelName": "@softwarewithnick",
-		"title": "Learn git the easy way \ud83d\ude0e #code #coding #tech #learntocode #git"
+		"name": "@softwarewithnick",
+		"title": "Learn git the easy way \ud83d\ude0e #code #coding #tech #learntocode #git",
+		"thumbnail": "https://i.ytimg.com/vi/ejWvEbNkL6Y/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDqm4qK6u2-2f44JfLzQnlsD-Preg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/nSdR-Xa6u1Y",
-		"channelName": "@arjay_the_dev",
-		"title": "Fix a slow database. #coding #systemdesign"
+		"name": "@arjay_the_dev",
+		"title": "Fix a slow database. #coding #systemdesign",
+		"thumbnail": "https://i.ytimg.com/vi/nSdR-Xa6u1Y/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBb5fNPEcTLyfzKQswzK7G9XtdoKA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/jBZZjgxC9CA",
-		"channelName": "@arjay_the_dev",
-		"title": "System Design Patterns #systemdesign"
+		"name": "@arjay_the_dev",
+		"title": "System Design Patterns #systemdesign",
+		"thumbnail": "https://i.ytimg.com/vi/jBZZjgxC9CA/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLB8Ibxr9zaBzIhDvkwpK8h4HBCJyQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/Rt1jS3MnVFg",
-		"channelName": "@arjay_the_dev",
-		"title": "How to handle large API responses #coding #programming"
+		"name": "@arjay_the_dev",
+		"title": "How to handle large API responses #coding #programming",
+		"thumbnail": "https://i.ytimg.com/vi/Rt1jS3MnVFg/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLB4brjNAM-dn27sL4iFUJk7B8yxNQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/o2Q9SjXqQ7c",
-		"channelName": "@arjay_the_dev",
-		"title": "Scaling a web app. #coding #systemdesign"
+		"name": "@arjay_the_dev",
+		"title": "Scaling a web app. #coding #systemdesign",
+		"thumbnail": "https://i.ytimg.com/vi/o2Q9SjXqQ7c/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCzSEWvBPJ2G-pMGD1PyE5iChsQng&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/5IRjY57Q3dY",
-		"channelName": "@Chase-H-AI",
-		"title": "5 Github Repos That Will 10x Your Next Claude Code Project"
+		"name": "@Chase-H-AI",
+		"title": "5 Github Repos That Will 10x Your Next Claude Code Project",
+		"thumbnail": "https://i.ytimg.com/vi/5IRjY57Q3dY/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAzCQye5xB3UDAblhY5aRBn5AhRkg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/InnDVEup61U",
-		"channelName": "@jherr",
-		"title": "useMemo, When and Why You Need It"
+		"name": "@jherr",
+		"title": "useMemo, When and Why You Need It",
+		"thumbnail": "https://i.ytimg.com/vi/InnDVEup61U/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA757Yd3KmBo5foLxEkj4i2KTIR7w&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/ymLp6HeKv1o",
-		"channelName": "@NeetCode",
-		"title": "a little secret for binary tree questions \ud83e\udd2b"
+		"name": "@NeetCode",
+		"title": "a little secret for binary tree questions \ud83e\udd2b",
+		"thumbnail": "https://i.ytimg.com/vi/ymLp6HeKv1o/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAj_AWJDC1yiGASKAnUyJJ-XwmS7Q&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/NKk5RRt1UfA",
-		"channelName": "@stevanfreeborn",
-		"title": "The mark of something good #programming #coding #developerlife #microsoft #dotnet #csharp"
+		"name": "@stevanfreeborn",
+		"title": "The mark of something good #programming #coding #developerlife #microsoft #dotnet #csharp",
+		"thumbnail": "https://i.ytimg.com/vi/NKk5RRt1UfA/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAkp-dFhv76F31X2720MDdZA-C9gA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/yO0wC5SMDEo",
-		"channelName": "@arjay_the_dev",
-		"title": "The AWS Services you should know.  #aws #coding #devops"
+		"name": "@arjay_the_dev",
+		"title": "The AWS Services you should know.  #aws #coding #devops",
+		"thumbnail": "https://i.ytimg.com/vi/yO0wC5SMDEo/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCUQ900Op3upAmMpg6OFNHiIMAgDw&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/pAM735qppI8",
-		"channelName": "@arjay_the_dev",
-		"title": "5 predictions for the SWE job market in 2026."
+		"name": "@arjay_the_dev",
+		"title": "5 predictions for the SWE job market in 2026.",
+		"thumbnail": "https://i.ytimg.com/vi/pAM735qppI8/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBc6ZXCusZk0sksscIk-E7N0PFV4g&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/Ic_BrZYVFw4",
-		"channelName": "@arjay_the_dev",
-		"title": "Pass a coding interview."
+		"name": "@arjay_the_dev",
+		"title": "Pass a coding interview.",
+		"thumbnail": "https://i.ytimg.com/vi/Ic_BrZYVFw4/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLARu7oS9skYlM7wv4yu7jNo13FAWA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/08YfwtIgyKE",
-		"channelName": "@arjay_the_dev",
-		"title": "The System Design Interview"
+		"name": "@arjay_the_dev",
+		"title": "The System Design Interview",
+		"thumbnail": "https://i.ytimg.com/vi/08YfwtIgyKE/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLB5Jqb3XrC_4GWXoxnwC8MVYw4H2Q&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/HejEsMV0CJY",
-		"channelName": "@arjay_the_dev",
-		"title": "NGiNX"
+		"name": "@arjay_the_dev",
+		"title": "NGiNX",
+		"thumbnail": "https://i.ytimg.com/vi/HejEsMV0CJY/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBdDPeBabm_x-zxbA20GJSsXrrnNg&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/FdOQP8GZVrs",
-		"channelName": "@GithubAwesome",
-		"title": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course"
+		"name": "@GithubAwesome",
+		"title": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course",
+		"thumbnail": "https://i.ytimg.com/vi/FdOQP8GZVrs/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLB-0fzWuoHtHl1gdhjIv0OmxuoWDQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/2XDsPWETY7g",
-		"channelName": "@arjay_the_dev",
-		"title": "Personal Projects for SWE"
+		"name": "@arjay_the_dev",
+		"title": "Personal Projects for SWE",
+		"thumbnail": "https://i.ytimg.com/vi/2XDsPWETY7g/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAWcwvmpO4r411Z4pbqyP_FGMqSBQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/qbzipHrA3nQ",
-		"channelName": "@softwarewithnick",
-		"title": "Learn to code by getting hands on \ud83d\ude0e #code #coding #tech #learntocode #data"
+		"name": "@softwarewithnick",
+		"title": "Learn to code by getting hands on \ud83d\ude0e #code #coding #tech #learntocode #data",
+		"thumbnail": "https://i.ytimg.com/vi/qbzipHrA3nQ/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLD-SCpM7cJ8ON6LPe0uH2AIZb1OyQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/4e-UPp8o8j8",
-		"channelName": "@arjay_the_dev",
-		"title": "Pre-deployment checklist."
+		"name": "@arjay_the_dev",
+		"title": "Pre-deployment checklist.",
+		"thumbnail": "https://i.ytimg.com/vi/4e-UPp8o8j8/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAsd0eQf_vDh6g3gIiAT-QPSAzoqA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/jVWsZapBc4w",
-		"channelName": "@AlaaCode",
-		"title": "3 Google Tools You MUST Use After Publishing Your Website! #frontend #webdevelopment #developer"
+		"name": "@AlaaCode",
+		"title": "3 Google Tools You MUST Use After Publishing Your Website! #frontend #webdevelopment #developer",
+		"thumbnail": "https://i.ytimg.com/vi/jVWsZapBc4w/oardefault.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCLxKPxDZ3-A4rJOX4_JAmBGUgvCQ&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/2_iU-Fo4K6M",
-		"channelName": "@CloudAIverse",
-		"title": "What is GCP CloudRun?"
+		"name": "@CloudAIverse",
+		"title": "What is GCP CloudRun?",
+		"thumbnail": "https://i.ytimg.com/vi/2_iU-Fo4K6M/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBbLZ2DzHOSXpLfcZeKqk9uuLAGmA&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/TGGDEqzDUdg",
-		"channelName": "@arjay_the_dev",
-		"title": "Database Indexing"
+		"name": "@arjay_the_dev",
+		"title": "Database Indexing",
+		"thumbnail": "https://i.ytimg.com/vi/TGGDEqzDUdg/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCNnRHs5hWzaSOQtl-FGsqbgMlM3Q&usqp=CCk",
+		"is_short": true
 	},
 	{
 		"url": "https://www.youtube.com/shorts/nzv0sbfprJo",
-		"channelName": "@GitKraken",
-		"title": "\ud83e\udd14 What\u2019s the difference between MERGING and REBASING in Git? #git #programming #shorts"
+		"name": "@GitKraken",
+		"title": "\ud83e\udd14 What\u2019s the difference between MERGING and REBASING in Git? #git #programming #shorts",
+		"thumbnail": "https://i.ytimg.com/vi/nzv0sbfprJo/hq720.jpg?sqp=-oaymwEoCJUDENAFSFryq4qpAxoIARUAAIhC0AEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDSOYnDdJ6SQT0_-mv8qkpNlaHC-w",
+		"is_short": false
 	},
 	{
 		"url": "https://www.youtube.com/shorts/vAK1H2UaaIQ",
-		"channelName": "@cosdensolutions",
-		"title": "Useful Render Pattern in React"
+		"name": "@cosdensolutions",
+		"title": "Useful Render Pattern in React",
+		"thumbnail": "https://i.ytimg.com/vi/vAK1H2UaaIQ/oar2.jpg?sqp=-oaymwErCJUDEOAESFqQAgHyq4qpAxoIARUAAIhCyAEB2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDq0tUSINd1Q2Ubk8z1_P1pdDYg9A&usqp=CCk",
+		"is_short": true
 	}
 ]

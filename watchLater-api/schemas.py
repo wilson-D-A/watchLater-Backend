@@ -13,7 +13,9 @@ class VideoBase(BaseModel):
     id: int
     title: str
     channelName: str
-    videoLength: str
+    videoLength: str | None = None
+    thumbnail: str | None = None
+    is_short: bool | None = None
     url: str
     category: str
     tags: list[TagBase] = []
