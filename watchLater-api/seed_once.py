@@ -2,7 +2,6 @@ from sqlalchemy.orm import Session
 
 from crud import (
     get_all_tags_in_category,
-    seed_videos_from_file,
 )
 from models import Video
 from sqlalchemy import select, func
@@ -12,7 +11,7 @@ from database import close_connector, engine
 def seed_videos(session: Session):
     with Session(engine) as session:
         before_count = session.scalar(select(func.count(Video.id))) or 0
-        seed_videos_from_file(session, data)
+        # seed_videos_from_file(session, data)
         after_count = session.scalar(select(func.count(Video.id))) or 0
 
     created = after_count - before_count

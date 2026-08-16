@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Depends, Query
-from schemas import TagBase, VideoBase, TagPatch, CategoryResponse
-from typing import Annotated
+from schemas import TagBase, VideoBase, TagPatch, CategoryResponse, cursorResponse
+from typing import Annotated, Literal
 from contextlib import asynccontextmanager
 import os
 from database import get_session, init_db, close_connector
@@ -28,19 +28,25 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 
-@app.get("/videos", response_model=list[VideoBase])
+@app.get("/videos", response_model=cursorResponse)
 async def get_videos(
     session: Annotated[Session, Depends(get_session)],
-    cursor: int | None = Query(default=0),
+    cursor_value: str | None = Query(default=None),
+    cursor_id: int | None = Query(default=None),
     category: str | None = Query(default=None),
     tag: list[str] | None = Query(default=None),
+    sort_by: Literal["title", "channelName"] = Query(default="title"),
+    sort_order: Literal["asc", "desc"] = Query(default="asc"),
 ):
     return get_all_videos_cursor_pg(
         session,
-        cursor,
+        cursor_value,
+        cursor_id,
         limit=20,
         category=category,
         tag=tag,
+        sort_by=sort_by,
+        sort_order=sort_order,
     )
 
 

@@ -85,14 +85,20 @@ Returns videos with cursor pagination and optional filtering.
 
 Query params:
 
-- `cursor` (int, default `0`): return records with `id > cursor`
+- `cursor_value` (string, optional): value of the current sort field from the last item of the previous page
+- `cursor_id` (int, optional): id of the last item from the previous page
 - `category` (string, optional)
 - `tag` (repeatable query param, optional)
+- `sort_by` (`title` | `channelName` | `duration`, default `title`)
+- `sort_order` (`asc` | `desc`, default `asc`)
 
 Example:
 
 ```bash
-curl "http://127.0.0.1:8000/videos?cursor=20&category=Frontend&tag=React&tag=TypeScript"
+curl "http://127.0.0.1:8000/videos?sort_by=channelName&sort_order=asc&category=Frontend&tag=React&tag=TypeScript"
+
+# next page example using cursor from previous response
+curl "http://127.0.0.1:8000/videos?sort_by=channelName&sort_order=asc&cursor_value=Fireship&cursor_id=42"
 ```
 
 ### `GET /categories`
