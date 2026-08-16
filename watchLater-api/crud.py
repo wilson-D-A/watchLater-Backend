@@ -1,5 +1,5 @@
 from models import Video, Tag
-from sqlalchemy import and_, func, or_, select
+from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 from pathlib import Path
 import json
@@ -158,73 +158,21 @@ def filter_videos(
 
 def get_all_videos_cursor_pg(
     session: Session,
-    cursor_value: str | None = None,
-    cursor_id: int | None = None,
+    cursor,
     limit: int = 20,
     category: str | None = None,
     tag: list[str] | None = None,
-    sort_by: str = "title",
-    sort_order: str = "asc",
 ):
-    stmt = select(Video)
-
-    sort_map = {
-        "title": (Video.title, "title"),
-        "channelName": (Video.channelName, "channelName"),
-    }
-    sort_column, sort_attr = sort_map.get(sort_by, sort_map["title"])
-    sort_expr = func.coalesce(sort_column, "")
-    is_asc = sort_order.lower() != "desc"
-
+    stmt = select(Video).order_by(Video.id)
+    if cursor:
+        stmt = stmt.where(Video.id > cursor)
     if category:
         stmt = stmt.where(Video.category == category)
-
     if tag:
-        stmt = stmt.join(Video.tags).where(Tag.name.in_(tag)).distinct(Video.id)
+        stmt = stmt.join(Video.tags).where(Tag.name.in_(tag))
 
-    # Cursor condition must match the same ORDER BY fields.
-    if cursor_value is not None and cursor_id is not None:
-        if is_asc:
-            stmt = stmt.where(
-                or_(
-                    sort_expr > cursor_value,
-                    and_(sort_expr == cursor_value, Video.id > cursor_id),
-                )
-            )
-        else:
-            stmt = stmt.where(
-                or_(
-                    sort_expr < cursor_value,
-                    and_(sort_expr == cursor_value, Video.id < cursor_id),
-                )
-            )
-
-    if is_asc:
-        stmt = stmt.order_by(sort_expr.asc(), Video.id.asc())
-    else:
-        stmt = stmt.order_by(sort_expr.desc(), Video.id.desc())
-
-    stmt = stmt.limit(limit + 1)
-    rows = session.execute(stmt).scalars().all()
-
-    has_next = len(rows) > limit
-    items = rows[:limit]
-
-    next_cursor = None
-    if has_next and items:
-        last = items[-1]
-        next_cursor = {
-            "value": getattr(last, sort_attr),
-            "id": last.id,
-            "sort_by": sort_by,
-            "sort_order": "asc" if is_asc else "desc",
-        }
-
-    return {
-        "items": items,
-        "has_next_page": has_next,
-        "next_cursor": next_cursor,
-    }
+    stmt = stmt.limit(limit)
+    return session.execute(stmt).scalars().all()
 
 
 def get_all_tags_in_category(session: Session, category: str):
