@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Depends, Query
-from schemas import TagBase, VideoBase, TagPatch, CategoryResponse, cursorResponse
+from schemas import CursorResponse, TagBase, VideoBase, TagPatch, CategoryResponse
 from typing import Annotated, Literal
 from contextlib import asynccontextmanager
 import os
@@ -28,7 +28,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 
-@app.get("/videos", response_model=cursorResponse)
+@app.get("/videos", response_model=CursorResponse)
 async def get_videos(
     session: Annotated[Session, Depends(get_session)],
     cursor_value: str | None = Query(default=None),

@@ -10,13 +10,13 @@ class TagBase(BaseModel):
 
 
 class CursorPayload(BaseModel):
-    value: str | None = None
-    id: int
+    cursor_value: str | None = None
+    cursor_id: int
     sort_by: str
     sort_order: str
 
 
-class cursorResponse(BaseModel):
+class CursorResponse(BaseModel):
     items: list[VideoBase] = Field(default_factory=list)
     next_cursor: CursorPayload | None = None
     has_next_page: bool | None = None

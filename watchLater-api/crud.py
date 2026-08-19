@@ -214,8 +214,8 @@ def get_all_videos_cursor_pg(
     if has_next and items:
         last = items[-1]
         next_cursor = {
-            "value": getattr(last, sort_attr),
-            "id": last.id,
+            "cursor_value": getattr(last, sort_attr),
+            "cursor_id": last.id,
             "sort_by": sort_by,
             "sort_order": "asc" if is_asc else "desc",
         }

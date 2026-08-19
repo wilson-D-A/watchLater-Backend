@@ -31,7 +31,7 @@
 					},
 					{
 						"name": "GOOGLE_APPLICATION_CREDENTIALS",
-						"value": "/Users/wilson/.config/gcloud/application_default_credentials.json"
+						"value": "/secrets/key.json"
 					},
 					{
 						"name": "DB_USER",

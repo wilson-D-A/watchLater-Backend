@@ -28,13 +28,12 @@ DATABASE_URL = os.getenv("DATABASE_URL") or (
     f"?host=/cloudsql/{CONNECTION_NAME}"
 )
 
-
-connector = Connector(refresh_strategy="LAZY")
+connector: Connector | None = None
 
 
 def getconn():
     ip_type = IPTypes.PRIVATE if DB_IP_TYPE == "PRIVATE" else IPTypes.PUBLIC
-    conn = connector.connect(
+    conn = connector.connect(  # type: ignore[union-attr]
         CONNECTION_NAME,
         DB_DRIVER,
         user=DB_USER,
@@ -45,9 +44,18 @@ def getconn():
     return conn
 
 
-if os.getenv("DATABASE_URL"):
+if os.getenv("LOCAL_DEV") == "true":
+    # Local dev: Cloud SQL Auth Proxy runs on the host; connect via TCP.
+    _db_host = os.getenv("DB_HOST", "127.0.0.1")
+    _db_port = os.getenv("DB_PORT", "5432")
+    engine = create_engine(
+        f"postgresql+{DB_DRIVER}://{DB_USER}:{quote_plus(DB_PASSWORD)}@{_db_host}:{_db_port}/{DB_NAME}",
+        pool_pre_ping=True,
+    )
+elif os.getenv("DATABASE_URL"):
     engine = create_engine(DATABASE_URL, pool_pre_ping=True)
 else:
+    connector = Connector(refresh_strategy="LAZY")
     engine = create_engine(
         f"postgresql+{DB_DRIVER}://", creator=getconn, pool_pre_ping=True
     )
@@ -62,7 +70,8 @@ def init_db():
 
 
 def close_connector():
-    connector.close()
+    if connector is not None:
+        connector.close()
 
 
 def get_session():
